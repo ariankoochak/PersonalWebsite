@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0
+}
+
+section > div {
+    height: 200px;
+    background: white;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 600%;
+}
+
+
+section {
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+    width: 60%;
+}
+
+
+.open {
+    background: green;
+    color: white;
+    padding: 3px;
+}
+
+.red {
+    background: red;
+    padding: 3px;
+    color: white;
+}
+
+.draw{
+    background: grey;
+    color: white;
+    padding: 3px;
+}
+
+h2{
+    padding: 3px;
+}
