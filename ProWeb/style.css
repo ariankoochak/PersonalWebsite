@@ -1,7 +1,89 @@
+@font-face {
+    font-family: Yekan;
+    src: url(./fonts/Yekan.eot), url(./fonts/Yekan.ttf) format('truetype'),url(./fonts/Yekan.svg) format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body{
     background-color: #f6f8fd;
 }
 
+ul{
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: auto;
+}
+li{
+
+    list-style-type: none;
+    margin: auto 50px;
+}
+h1{
+    color:#0C0B46;
+    font-size: 5vw;
+    font-family: Yekan;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+h2{
+    color: #0C0B46;
+    font-size: 2vw;
+    font-family: Yekan;
+    display: inline-block;
+    margin-top: -10%;
+    margin-left: 3.5%;
+}
+
+
+.icon-page{
+    position: absolute;
+    width: 3%;
+    margin-top: 1%;
+    margin-left: -35%;
+}
+
 .up-right{
     float: right;
+    height: 35%;
+    width: 35%;
+    margin-top: -19%;
+    margin-right: 8%;
 }
+
+.center-right{
+    float: right;
+    height: 50%;
+    width: 50%;
+    margin-right: -70%;
+    margin-top: 2%;
+}
+
+.bottom-right{
+    float: right;
+    rotate: 15deg;
+    width: 45%;
+    height: 45%;
+    margin-top: 20.5%;
+    margin-right: -47%;
+}
+
+.bottom-left {
+    float: left;
+    width: 38%;
+    height: 38%;
+    margin-top: 25%;
+}
+
+.center-left{
+    float: left;
+    width: 60%;
+    height: 60%;
+    margin-top: -5%;
+    margin-left: -66%;
+}
+
