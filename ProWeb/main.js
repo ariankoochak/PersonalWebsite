@@ -1,4 +1,4 @@
-//DOMS
+//Doms
 let objs = document.getElementsByTagName("img");
 
 //Functions
@@ -12,4 +12,5 @@ function movingObject(e){
     objs[5].style.transform = `translate(${-mouseX}px,${-mouseY}px)`
 }
 
+//Events
 window.addEventListener("mousemove",movingObject);
