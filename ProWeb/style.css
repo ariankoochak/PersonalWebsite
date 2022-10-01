@@ -5,6 +5,49 @@
     font-style: normal;
 }
 
+
+.top-nav {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2%;
+}
+.top-nav a {
+    font-family: Yekan;
+    float: center;
+    color: #0D0A46;
+    text-align: center;
+    margin: 2%;
+    font-size: 1.1vw;
+}
+
+.simple-work{
+    font-family: Yekan;
+    font-size: 1.1vw;
+    display: inline-block;
+    color: white;
+    padding: 0.5%;
+    background-image: linear-gradient(45deg, #7141F1, #367CDF);
+}
+.simple-work:hover {
+    background-color: #6F40F1;
+}
+
+
+.contact-me{
+    font-family: Yekan;
+    font-size: 1.1vw;
+    display: inline-block;
+    color: black;
+    padding: 0.5%;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    position: sticky;
+    z-index: -1;
+}
 body{
     overflow-x: hidden;
     background-color: #f6f8fd;
@@ -15,11 +58,15 @@ ul{
     display: flex;
     flex-direction: row;
     margin: auto;
+    width: 100px;
+    height: auto;
+
 }
 li{
-    display: block;
+    padding: 0 20px;
+    /* display: block; */
     list-style-type: none;
-    margin: auto 50px;
+    /* margin: auto 50px; */
 }
 h1{
     color:#0D0A46;
@@ -43,7 +90,7 @@ h2{
 .icon-page{
     position: absolute;
     width: 3%;
-    margin-top: 1%;
+    margin-top: -1.5%;
     margin-left: -35%;
 }
 
