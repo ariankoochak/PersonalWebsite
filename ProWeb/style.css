@@ -6,6 +6,7 @@
 }
 
 
+
 .top-nav {
     overflow: hidden;
     text-align: center;
@@ -20,25 +21,45 @@
     font-size: 1.1vw;
 }
 
+.bold-nav{
+    margin-right: 39%;
+    text-align: center;
+}
+
 .simple-work{
     font-family: Yekan;
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     display: inline-block;
     color: white;
-    padding: 0.5%;
-    background-image: linear-gradient(45deg, #7141F1, #367CDF);
+    padding: 2% 5%;
+    margin-right: 1%;
+    border-radius: 1000px;
+    background-image: linear-gradient(51deg, #7141f1 50%, #4d6bd8 75%, #3183e2 100%);
+    box-shadow: -5px -5px 15px rgb(255 255 255 / 90%), 5px 5px 15px rgb(60 14 189 / 30%);
+    transition: 0.2s ease-in-out;
 }
 .simple-work:hover {
     background-color: #6F40F1;
+    background-image: linear-gradient(#3183e2,#3183e2);
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, .9), 2px 2px 5px rgba(60, 14, 189, .3);
+    transition: 0.5s ;
 }
 
 
 .contact-me{
+    background-color: #f7f8fc;
     font-family: Yekan;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     display: inline-block;
     color: black;
-    padding: 0.5%;
+    border-radius: 1000px;
+    padding: 2% 5%;
+    box-shadow: -5px -5px 15px rgb(255 255 255 / 90%), 4px 4px 12px rgb(57 65 124 / 20%);
+    transition: 0.2s ease-in-out;
+}
+
+.contact-me:hover{
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, .9), 2px 2px 4px rgba(57, 65, 124, .2);
 }
 
 a{
