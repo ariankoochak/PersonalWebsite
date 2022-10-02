@@ -26,13 +26,14 @@
 }
 
 .socials{
-    display: inline-block;
     /* overflow: hidden; */
     display: flex;
     flex-direction: row;
     width: 60%;
     text-align: center;
-    margin-left: 70%;
+    margin-top: 20%;
+    /* margin: auto; */
+    /* margin-left: -13%; */
 }
 
 /* .socials a{
@@ -43,7 +44,12 @@
 a img{
     float: center;
     /* margin: 0% 1%; */
-    width: 20%;
+    width: 4%;
+}
+
+
+.socials a{
+    margin: 0% -34%;
 }
 
 .bold-nav{
