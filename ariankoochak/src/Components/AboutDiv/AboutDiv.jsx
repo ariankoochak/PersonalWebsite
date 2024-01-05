@@ -16,8 +16,9 @@ export default function AboutDiv() {
               participated in the resuce simulation open league (Co-Space). And
               I started working with javascript and I did various projects with
               javascript, react, node, mysql, which you can see in my GitHub.
-              Now I am studying computer engineering in Tehran Azad University of
-              Research Sciences.
+              Now I am studying computer engineering in Tehran Azad University
+              of Research Sciences.And in the future, I want to enter and work
+              more in the fields of AI and blockchain
           </p>
       </div>
   );
