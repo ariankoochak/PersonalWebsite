@@ -180,10 +180,6 @@ button:hover{
     width: 33%;
 }
 
-.about-myskills-certificates-data{
-
-}
-
 .common-styles-div{
     border-radius: 20px;
     color: white;
@@ -200,9 +196,7 @@ button:hover{
     margin-bottom: 10px;
 }
 
-.image-and-contact-container{
-    /* background-color: yellow; */
-}
+
 
 .image-and-contact-container div{
     display: inline-block;
@@ -273,4 +267,28 @@ button:hover{
 .contact-div .contact-container .download-cv-btn:hover{
     background-color: #0481cf;
 
+}
+.socials-div{
+    text-align: center;
+    margin-top: 11px;
+}
+.socials-div div{
+    padding: 20px 0;
+    display: inline-block;
+    width: 19%;
+    margin: 0 10px;
+}
+
+.socials-div div:hover{
+    cursor: pointer;
+}
+
+.socials-div .quera img{
+    width: 55px;
+    position: relative;
+    top: 8px;
+}
+
+.socials-div div i{
+    font-size: 55px;
 }

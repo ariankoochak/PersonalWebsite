@@ -2,6 +2,8 @@ import React from "react";
 import TitleDiv from "../../Components/TitleDiv/TitleDiv";
 import ImageDiv from "../../Components/ImageDiv/ImageDiv";
 import ContactMeDiv from "../../Components/ContactMeDiv/ContactMeDiv";
+import SocialsDiv from "../../Components/SocialsDiv/SocialsDiv";
+
 
 export default function HomePage() {
     return (
@@ -13,6 +15,7 @@ export default function HomePage() {
                         <ImageDiv/>
                         <ContactMeDiv/>
                     </div>
+                    <SocialsDiv/>
               </article>
               <article className="about-myskills-certificates-data">
 
