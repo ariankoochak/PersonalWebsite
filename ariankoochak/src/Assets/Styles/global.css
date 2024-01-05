@@ -112,3 +112,48 @@ body{
     padding: 0;
     background-color: #0E0E0F;
 }
+
+.persian-blue-color{
+    color: #0067A5;
+}
+.persian-blue-Backgroundcolor{
+    background-color: #0067A5;
+}
+.persian-blue-div-color{
+    background-color: #1B1B1E;
+}
+
+.persian-green-color{
+    color: #00A693;
+}
+.persian-green-Backgroundcolor{
+    background-color: #00A693;
+}
+.persian-green-div-color{
+    background-color: #1B1E1D;
+}
+
+.persian-red-color{
+    color: #CC3333;
+}
+.persian-red-Backgroundcolor{
+    background-color: #CC3333;
+}
+.persian-red-div-color{
+    background-color: #1E1B1B;
+}
+
+.persian-orange-color{
+    color: #D99058;
+}
+.persian-orange-Backgroundcolor{
+    background-color: #D99058;
+}
+.persian-orange-div-color{
+    background-color: #1E1C1B;
+}
+
+
+/* .title-div{
+    
+} */
