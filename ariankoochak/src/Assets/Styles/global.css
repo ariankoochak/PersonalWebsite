@@ -113,6 +113,15 @@ body{
     background-color: #0E0E0F;
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
 .persian-blue-color{
     color: #0067A5;
 }
@@ -153,7 +162,42 @@ body{
     background-color: #1E1C1B;
 }
 
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    background-color: red;
+}
 
-/* .title-div{
+.contact-and-me-data{
+    width: 33%;
+}
+
+.about-myskills-certificates-data{
+
+}
+
+.common-styles-div{
+    border-radius: 20px;
+    color: white;
     
-} */
+}
+
+.title-div{
+    font-family: Roboto-Bold;
+    font-size: 28px;
+    padding: 30px 20px 30px 50px;
+}
+
+.title-div h2{
+    margin-bottom: 10px;
+}
+
+.image-and-contact-container{
+
+}
+
+.image-div{
+    margin-top: 15px;
+    width: 48%;
+    overflow: hidden;
+}

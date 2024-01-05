@@ -1,5 +1,7 @@
 import React from "react";
 import TitleDiv from "../../Components/TitleDiv/TitleDiv";
+import ImageDiv from "../../Components/ImageDiv/ImageDiv";
+import ContactMeDiv from "../../Components/ContactMeDiv/ContactMeDiv";
 
 export default function HomePage() {
     return (
@@ -7,6 +9,10 @@ export default function HomePage() {
             <section className="container">
               <article className="contact-and-me-data">
                     <TitleDiv/>
+                    <div className="image-and-contact-container">
+                        <ImageDiv/>
+                        <ContactMeDiv/>
+                    </div>
               </article>
               <article className="about-myskills-certificates-data">
 

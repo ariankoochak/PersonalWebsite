@@ -6,7 +6,6 @@ import HomePage from './Layouts/HomePage/HomePage'
 export default function App() {
   return (
       <>
-          <HomePage />
           <BrowserRouter>
               <Routes>
                   <Route path="/" element={<HomePage />}></Route>
