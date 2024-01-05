@@ -25,6 +25,13 @@ export default function ResumeDiv() {
                   <span className="title">Email</span>
                   <span className="value">arian.koochak@protonmail.com</span>
               </div>
+              <div className="education">
+                  <span className="title">Degree of education</span>
+                  <span className="value">
+                      Bachelor of Computer Engineering <br /> University of
+                      Research Sciences
+                  </span>
+              </div>
           </div>
       </div>
   );

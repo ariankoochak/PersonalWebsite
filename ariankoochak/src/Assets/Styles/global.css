@@ -334,11 +334,15 @@ button:hover{
 }
 
 .resume-div .resume-data div{
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 10px;
 }
 .resume-div .resume-data div:hover{
     background-color: #101010;
+}
+
+.resume-div .resume-data .education{
+    height: 35px;
 }
 
 .my-skills-div{
@@ -352,38 +356,6 @@ button:hover{
     min-height: 100px;
 }
 
-.about-div{
-    min-height: 165px;
-    float: right;
-    width: 64%;
-    display: inline-block;
-    margin-left: 15px;
-}
-
-.skill-tag-div{
-    background-color: #595959;
-    display: inline-block;
-    border-radius: 100px;
-    padding: 6px 13px;
-    margin: 5px 5px;
-    height: 24px;
-}
-
-.skill-tag-div div{
-    display: inline-block;
-}
-
-.skill-tag-div .skill-tag-image{
-    width: 20px;
-    position: relative;
-    top: 2.5px;
-}
-
-.skill-tag-div .skill-tag-name{
-    font-family: Roboto-Light;
-    margin-left: 5px;
-}
-
 .skill-tag{
     background-color: #595959;
     display: inline-block;
@@ -392,4 +364,18 @@ button:hover{
     font-family: Roboto-Light;
     margin: 3px;
     cursor: default;
+}
+
+.about-div{
+    min-height: 165px;
+    float: right;
+    width: 64%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.about-div p{
+    padding: 0 30px;
+    text-align: justify;
+    font-family: Roboto-Regular;
 }
