@@ -151,6 +151,10 @@ button:hover{
     cursor: pointer;
 }
 
+a{
+    color: inherit;
+}
+
 .persian-blue-color{
     color: #0067A5;
 }
