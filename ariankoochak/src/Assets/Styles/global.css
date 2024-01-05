@@ -484,3 +484,16 @@ button:hover{
 .certificate-card .certificate-datas .margin-down{
     margin-bottom: 35px;
 }
+
+.certificate-card .institute-image i{
+    font-size: 100px;
+}
+
+.certificate-card .certificate-datas a{
+    text-decoration: none;
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    right: 30px;
+}

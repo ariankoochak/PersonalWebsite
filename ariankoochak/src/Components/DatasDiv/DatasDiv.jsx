@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import CertificatesMainDatas from '../CertificatesMainDatas/CertificatesMainDatas';
 import AwardsMainDatas from '../AwardsMainDatas/AwardsMainDatas';
+import ProjectsMainDatas from '../ProjectsMainDatas/ProjectsMainDatas';
 
 export default function DatasDiv() {
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
@@ -25,7 +26,8 @@ export default function DatasDiv() {
           <div className="line"></div>
           <div className='main-datas'>
               {/* <CertificatesMainDatas/> */}
-              <AwardsMainDatas/>
+              {/* <AwardsMainDatas/> */}
+              <ProjectsMainDatas/>
           </div>
       </div>
   );
