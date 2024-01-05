@@ -425,6 +425,10 @@ button:hover{
     cursor: pointer;
 }
 
+.datas-div .header .head-options h3:hover{
+    color: #a9a9a9;
+}
+
 .line{
     margin: 15px auto;
     width: 95%;
@@ -497,3 +501,4 @@ button:hover{
     top: 10px;
     right: 30px;
 }
+
