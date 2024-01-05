@@ -10,11 +10,11 @@ export default function ProjectCard({ title, iconSrc, Techs, live ,mainLink}) {
     }
     const handleLiveProject = ()=>{
         if(live !== '')
-            return <a href={live} className={`${mainColor.color}`} target="_blank">Go Live</a>
+            return <a href={live} className={`${mainColor.color}`} target="_blank" rel="noreferrer">Go Live</a>
     }
     const handleSeeProject=()=>{
         if(mainLink !== '')
-            return <a href={mainLink} className={`${mainColor.color}`} target="_blank">See code on github</a>
+            return <a href={mainLink} className={`${mainColor.color}`} target="_blank" rel="noreferrer">See code on github</a>
         
     }
     return (
