@@ -17,11 +17,13 @@ const handleContactMeClick = ()=>{
               <button className="contact-me-btn" onClick={handleContactMeClick}>
                   <i class="fa-solid fa-circle"></i> Contact me
               </button>
-              <button
-                  className={`download-cv-btn ${mainColor.backgroundColor}`}
-              >
-                  <i className="fa-solid fa-download"></i> Download CV
-              </button>
+              <a href="./CV.pdf" download>
+                  <button
+                      className={`download-cv-btn ${mainColor.backgroundColor}`}
+                  >
+                      <i className="fa-solid fa-download"></i> Download CV
+                  </button>
+              </a>
           </div>
       </div>
   );

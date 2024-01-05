@@ -152,6 +152,7 @@ button:hover{
 }
 
 a{
+    border: none;
     color: inherit;
 }
 
@@ -292,7 +293,6 @@ a{
 }
 
 .contact-div .contact-container button{
-    display: block;
     margin: 0 auto;
     margin-top: 22px;
     width: 75%;
