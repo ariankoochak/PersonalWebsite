@@ -122,6 +122,14 @@ img{
     width: 100%;
 }
 
+button{
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
 .persian-blue-color{
     color: #0067A5;
 }
@@ -165,7 +173,7 @@ img{
 .container{
     width: 1600px;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .contact-and-me-data{
@@ -193,11 +201,60 @@ img{
 }
 
 .image-and-contact-container{
+    /* background-color: yellow; */
+}
 
+.image-and-contact-container div{
+    display: inline-block;
 }
 
 .image-div{
+    background: url('../Images/profile.jpg');
+    background-position: center;
+    background-size: cover;
     margin-top: 15px;
     width: 48%;
+    height: 257.438px;
     overflow: hidden;
+}
+
+
+.contact-div{
+    width: 48.5%;
+    height: 257.438px;
+    float: right;
+    margin-top: 15px;
+}
+
+.contact-div .contact-container{
+    /* background-color: red; */
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto-Light;
+    margin-top: 19%;
+}
+
+.contact-div .contact-container span{
+    display: block;
+    font-size: 18px;
+}
+
+.contact-div .contact-container button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 70%;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.contact-div .contact-container .contact-me-btn{
+    background-color: black;
+    color: white;
+}
+
+.contact-div .contact-container .download-cv-btn{
+    color: white;
 }
