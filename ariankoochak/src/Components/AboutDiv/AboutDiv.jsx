@@ -10,7 +10,14 @@ export default function AboutDiv() {
       >
           <h2 className={`divs-title ${mainColor.color}`}>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, perferendis ducimus eaque cum suscipit animi minima repudiandae voluptates saepe hic neque officia odio, illum molestias eius doloribus dolorum provident eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt perspiciatis consectetur cumque repellat, fugit animi minus doloribus commodi laudantium, quod nesciunt quibusdam harum, ut voluptatum explicabo. Modi, beatae nisi?
+              I started programming with C++ when I was 12 years old. During
+              high school, I participated in global and domestic RoboCup
+              competitions and won a place. In these competitions, I
+              participated in the resuce simulation open league (Co Space). And
+              I started working with javascript and I did various projects with
+              javascript, react, node, mysql, which you can see in my GitHub.
+              Now I am studying computer engineering in Tehran Azad University of
+              Research Sciences.
           </p>
       </div>
   );

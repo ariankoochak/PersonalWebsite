@@ -372,10 +372,12 @@ button:hover{
     width: 64%;
     display: inline-block;
     margin-left: 15px;
+    padding-bottom: 4px;
 }
 
 .about-div p{
     padding: 0 30px;
     text-align: justify;
     font-family: Roboto-Regular;
+    line-height: 1.5;
 }
