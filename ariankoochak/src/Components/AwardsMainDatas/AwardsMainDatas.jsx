@@ -28,7 +28,7 @@ export default function AwardsMainDatas() {
           <div className="line"></div>
           <AwardCard
               title="2nd place in Junior Cup 2018(Co-Space Secondary)"
-              issued="National Organization for Development of Exceptional Talents"
+              issued="National Organization of Exceptional Talents"
               issuedIconSrc={sampadLogoSrc}
               year="2018"
           />
