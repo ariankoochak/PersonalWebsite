@@ -7,6 +7,7 @@ import ResumeDiv from "../../Components/ResumeDiv/ResumeDiv";
 import MySkillsDiv from "../../Components/MySkillsDiv/MySkillsDiv";
 import AboutDiv from "../../Components/AboutDiv/AboutDiv";
 import DatasDiv from "../../Components/DatasDiv/DatasDiv";
+import ColorChanger from "../../Components/ColorChanger/ColorChanger";
 
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
         <>
             <section className="main">
                 <section className="container">
+                    <ColorChanger/>
                     <article className="contact-and-me-data">
                         <TitleDiv />
                         <div className="image-and-contact-container">

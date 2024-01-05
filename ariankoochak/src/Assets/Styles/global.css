@@ -192,12 +192,33 @@ button:hover{
 }
 
 .main{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .container{
     width: 1600px;
     margin: 0 auto;
 }
+
+.color-changer-div div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px 5px; 
+    position: relative;
+    left: 20px;
+    top: 2px;
+    cursor: pointer;
+}
+
+.selected-color{
+    border: 1px solid white;
+}
+
+.color-changer-div{
+    margin-bottom: 15px;
+}
+
 
 .contact-and-me-data{
     width: 33%;
@@ -296,10 +317,6 @@ button:hover{
     color: white;
 }
 
-.contact-div .contact-container .download-cv-btn:hover{
-    background-color: #0481cf;
-
-}
 .socials-div{
     text-align: center;
     margin-top: 11px;
