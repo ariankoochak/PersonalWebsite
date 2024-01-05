@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import CertificatesMainDatas from '../CertificatesMainDatas/CertificatesMainDatas';
 import AwardsMainDatas from '../AwardsMainDatas/AwardsMainDatas';
 import ProjectsMainDatas from '../ProjectsMainDatas/ProjectsMainDatas';
+import ExperienceMainDatas from '../ExperienceMainDatas/ExperienceMainDatas';
 
 export default function DatasDiv() {
   const handleClickTab = (e) => {
@@ -30,15 +31,17 @@ export default function DatasDiv() {
     const [activeTab, SetActiveTab] = useState("Certificates ");
     const handleActiveTabDatas = ()=>{
       console.log(activeTab);
-      switch(activeTab){
-        case 'Certificates ':
-          return <CertificatesMainDatas/>
-        case 'Awards ':
-          return <AwardsMainDatas/>
-        case 'Projects ':
-          return <ProjectsMainDatas/>
-        default:
-          return 'bug in handleActiveTabDatas fucntion'
+      switch (activeTab) {
+          case "Certificates ":
+              return <CertificatesMainDatas />;
+          case "Awards ":
+              return <AwardsMainDatas />;
+          case "Projects ":
+              return <ProjectsMainDatas />;
+          case "Experience ":
+              return <ExperienceMainDatas />;
+          default:
+              return "bug in handleActiveTabDatas fucntion";
       }
     }
     const handleRenderOtherstab = ()=>{
