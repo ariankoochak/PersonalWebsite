@@ -176,11 +176,17 @@ button:hover{
 .container{
     width: 1600px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 
 .contact-and-me-data{
     width: 33%;
+    display: inline-block;
+}
+
+.about-myskills-certificates-data{
+    display: inline-block;
+    width: 67%;
+    float: right;
 }
 
 .common-styles-div{
@@ -204,6 +210,8 @@ button:hover{
 .image-and-contact-container div{
     display: inline-block;
 }
+
+
 
 .image-div{
     background: url('../Images/profile.jpg');
@@ -300,7 +308,7 @@ button:hover{
     margin-top: 15px;
 }
 
-.resume-div h2{
+.divs-title{
     font-family: Roboto-Bold;
     padding-left: 30px;
     padding-top: 15px;
@@ -331,4 +339,57 @@ button:hover{
 }
 .resume-div .resume-data div:hover{
     background-color: #101010;
+}
+
+.my-skills-div{
+    width: 33%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.my-skills-div .skills{
+    margin: 10px 25px;
+    min-height: 100px;
+}
+
+.about-div{
+    min-height: 165px;
+    float: right;
+    width: 64%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.skill-tag-div{
+    background-color: #595959;
+    display: inline-block;
+    border-radius: 100px;
+    padding: 6px 13px;
+    margin: 5px 5px;
+    height: 24px;
+}
+
+.skill-tag-div div{
+    display: inline-block;
+}
+
+.skill-tag-div .skill-tag-image{
+    width: 20px;
+    position: relative;
+    top: 2.5px;
+}
+
+.skill-tag-div .skill-tag-name{
+    font-family: Roboto-Light;
+    margin-left: 5px;
+}
+
+.skill-tag{
+    background-color: #595959;
+    display: inline-block;
+    padding: 6px 13px;
+    border-radius: 20px;
+    font-family: Roboto-Light;
+    margin: 3px;
+    cursor: default;
 }

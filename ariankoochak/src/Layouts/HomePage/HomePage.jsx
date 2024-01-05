@@ -4,6 +4,8 @@ import ImageDiv from "../../Components/ImageDiv/ImageDiv";
 import ContactMeDiv from "../../Components/ContactMeDiv/ContactMeDiv";
 import SocialsDiv from "../../Components/SocialsDiv/SocialsDiv";
 import ResumeDiv from "../../Components/ResumeDiv/ResumeDiv";
+import MySkillsDiv from "../../Components/MySkillsDiv/MySkillsDiv";
+import AboutDiv from "../../Components/AboutDiv/AboutDiv";
 
 
 export default function HomePage() {
@@ -20,7 +22,13 @@ export default function HomePage() {
                         <SocialsDiv />
                         <ResumeDiv/>
                     </article>
-                    <article className="about-myskills-certificates-data"></article>
+                    <article className="about-myskills-certificates-data">
+                        <div className="up-side">
+                            <MySkillsDiv/>
+                            <AboutDiv/>
+                        </div>
+                        <div className="down-side"></div>
+                    </article>
                 </section>
             </section>
         </>

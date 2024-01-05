@@ -7,7 +7,7 @@ export default function ResumeDiv() {
       <div
           className={`common-styles-div resume-div ${mainColor.backgroundColorDiv}`}
       >
-          <h2 className={`${mainColor.color}`}>Resume</h2>
+          <h2 className={`divs-title ${mainColor.color}`}>Resume</h2>
           <div className="resume-data">
               <div className="age">
                   <span className="title">Age</span>
