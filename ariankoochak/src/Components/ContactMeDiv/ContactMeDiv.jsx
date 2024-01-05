@@ -10,11 +10,13 @@ export default function ContactMeDiv() {
       >
           <div className="contact-container">
               <span>I’m available for work</span>
-              <button className="contact-me-btn">Contact me</button>
+              <button className="contact-me-btn">
+                  <i class="fa-solid fa-circle"></i> Contact me
+              </button>
               <button
                   className={`download-cv-btn ${mainColor.backgroundColor}`}
               >
-                  Download CV
+                  <i className="fa-solid fa-download"></i> Download CV
               </button>
           </div>
       </div>
