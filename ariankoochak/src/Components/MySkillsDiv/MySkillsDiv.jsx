@@ -10,6 +10,8 @@ import cssLogoSrc from "../../Assets/Images/CssLogo.png";
 import cppLogoSrc from "../../Assets/Images/CppLogo.png";
 import expressLogoSrc from "../../Assets/Images/ExpressJsLogo.png";
 import pythonLogoSrc from "../../Assets/Images/PythonLogo.png";
+import nextJsLogoSrc from "../../Assets/Images/NextJsLogo.png";
+
 
 
 
@@ -25,6 +27,7 @@ export default function MySkillsDiv() {
               <SkillTag skillName="React JS" skillIconSrc={reactLogoSrc} />
               <SkillTag skillName="Node JS" skillIconSrc={nodeLogoSrc} />
               <SkillTag skillName="Sql Server" skillIconSrc={sqlServerLogoSrc} />
+              <SkillTag skillName="Next JS" skillIconSrc={nextJsLogoSrc} />
               <SkillTag skillName="HTML" skillIconSrc={htmlLogoSrc} />
               <SkillTag skillName="CSS" skillIconSrc={cssLogoSrc} />
               <SkillTag skillName="C++" skillIconSrc={cppLogoSrc} />

@@ -6,6 +6,7 @@ import SocialsDiv from "../../Components/SocialsDiv/SocialsDiv";
 import ResumeDiv from "../../Components/ResumeDiv/ResumeDiv";
 import MySkillsDiv from "../../Components/MySkillsDiv/MySkillsDiv";
 import AboutDiv from "../../Components/AboutDiv/AboutDiv";
+import DatasDiv from "../../Components/DatasDiv/DatasDiv";
 
 
 export default function HomePage() {
@@ -27,7 +28,9 @@ export default function HomePage() {
                             <MySkillsDiv/>
                             <AboutDiv/>
                         </div>
-                        <div className="down-side"></div>
+                        <div className="down-side">
+                            <DatasDiv/>
+                        </div>
                     </article>
                 </section>
             </section>
