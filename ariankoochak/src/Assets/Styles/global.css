@@ -523,8 +523,104 @@ a{
     right: 30px;
 }
 
+@media only screen and (max-width: 1600px) {
+.container {width: 90%}
+  .contact-and-me-data{
+    width: 100%;
+    } 
+    .about-myskills-certificates-data{
+        width: 100%;
+    }
+    .image-div{
+        height: 300px;
+    }
+    .contact-div{
+        height: 300px;
+    }
+    .contact-div .contact-container span{
+        font-size: 23px;
+    }
+    .contact-div .contact-container button{
+        font-size: 23px;
+        width: 80%;
+        margin-top: 26px;
+    }
+    .resume-div .resume-data span{
+        font-size: 20px;
+    }
+    .resume-div .resume-data .education{
+        height: 60px;
+        margin-bottom: 5px;
+    }
+    .my-skills-div{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .about-div{
+        width: 100%;
+        margin-top: 15px;
+        float: none;
+        margin-left: 0;
+    }
+    .datas-div{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .datas-div .head-options{
+        width: 65% !important;
+    }
+    .datas-div .selected-head{
+        width: 35% !important;
+    }
+    .certificate-datas{
+        width: 80%;
+    }
+     .certificate-card .certificate-datas .left-side{
+        width: 65%;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .certificate-card .certificate-datas .right-side{
+        width: 35%;
+    }
+    .certificate-card .certificate-datas .margin-down{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:900px) and (max-width:1600px){
+    .image-div{
+        height: 300px;
+        width: 48%;
+    }
+    .contact-div{
+        height: 300px;
+        width: 48%;
+    }
+    .image-and-contact-container{
+        width: 60%;
+        display: inline-block;
+    }
+    .socials-div{
+        width: 38%;
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 15px;
+        float: right;
+        padding: 51px 0;
+    }
+    .socials-div div{
+        width: 40%;
+    }
+}
+@media (min-width:1200px) and (max-width:1600px){
+  .container {width: 1200px}
+    
+}
 @media only screen and (max-width: 600px) {
-  /* For tablets: */
   .container {width: 90%}
   .contact-and-me-data{
     width: 100%;
@@ -633,8 +729,4 @@ a{
         top: -10px;
         font-size: 17px;
     }
-}
-
-@media only screen and (min-width: 768px) {
-
 }
