@@ -14,19 +14,19 @@ export default function ResumeDiv() {
                   <span className="value">20 Years</span>
               </div>
               <div className="city">
-                  <span className="title">City</span>
-                  <span className="value">Iran,Tehran</span>
+                  <span className="title">Address</span>
+                  <span className="value">Tehran, Iran</span>
               </div>
               <div className="military">
-                  <span className="title">military service status</span>
-                  <span className="value">education pardon</span>
+                  <span className="title">Military service status</span>
+                  <span className="value">Education pardon</span>
               </div>
               <div className="email">
                   <span className="title">Email</span>
                   <span className="value">arian.koochak@protonmail.com</span>
               </div>
               <div className="education">
-                  <span className="title">Degree of education</span>
+                  <span className="title">Degree of Education</span>
                   <span className="value">
                       Bachelor of Computer Engineering <br /> University of
                       Research Sciences
