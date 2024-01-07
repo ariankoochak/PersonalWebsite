@@ -23,8 +23,8 @@ export default function DatasDiv() {
       code :<h3 onClick={handleClickTab}>Projects <i className="fa-solid fa-code"></i></h3>,
     },
     {
-      name:"Experience ",
-      code:<h3 onClick={handleClickTab}>Experience <i className="fa-solid fa-rectangle-history"></i></h3>,
+      name:"Experiences ",
+      code:<h3 onClick={handleClickTab}>Experiences <i className="fa-solid fa-rectangle-history"></i></h3>,
     }
   ];
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
@@ -38,7 +38,7 @@ export default function DatasDiv() {
               return <AwardsMainDatas />;
           case "Projects ":
               return <ProjectsMainDatas />;
-          case "Experience ":
+          case "Experiences ":
               return <ExperienceMainDatas />;
           default:
               return "bug in handleActiveTabDatas fucntion";
@@ -65,7 +65,7 @@ export default function DatasDiv() {
               </div>
               <div className="head-options">
                   {/* <h3>Awards <i className="fa-solid fa-award"></i></h3>
-                  <h3>Experience <i className="fa-solid fa-rectangle-history"></i></h3>
+                  <h3>Experiences <i className="fa-solid fa-rectangle-history"></i></h3>
                   <h3>Projects <i className="fa-solid fa-code"></i></h3> */}
                   {handleRenderOtherstab()}
               </div>
