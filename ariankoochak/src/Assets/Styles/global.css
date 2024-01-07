@@ -629,6 +629,9 @@ a{
         font-size: 20px;
          padding: 20px 10px 20px 20px;
     }  
+    .title-div h3{
+        font-size: 24px;
+    }
     .image-div{
         height: 200px;
     }
@@ -645,6 +648,9 @@ a{
     }
     .socials-div div{
         width: 18%;
+    }
+    .resume-div .resume-data span{
+        font-size: 15px;
     }
     .resume-div .resume-data{
         padding: 0 10px;
