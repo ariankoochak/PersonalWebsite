@@ -7,7 +7,7 @@ export default function ProjectsMainDatas() {
           <ProjectCard
               title="Personal Website(This Website)"
               Techs="ReactJs/NodeJS/Redux"
-              live="ariankoochak.me"
+              live="https://ariankoochak.com"
               iconSrc={myLogoSrc}
               mainLink="https://github.com/ariankoochak/PersonalWebsite"
           />
