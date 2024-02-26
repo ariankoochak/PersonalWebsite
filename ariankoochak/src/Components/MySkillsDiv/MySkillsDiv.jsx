@@ -11,6 +11,7 @@ import cppLogoSrc from "../../Assets/Images/CppLogo.png";
 import expressLogoSrc from "../../Assets/Images/ExpressJsLogo.png";
 import pythonLogoSrc from "../../Assets/Images/PythonLogo.png";
 import nextJsLogoSrc from "../../Assets/Images/NextJsLogo.png";
+import mongoDBLogoSrc from "../../Assets/Images/MongoDbLogo.png"
 
 
 
@@ -33,6 +34,7 @@ export default function MySkillsDiv() {
               <SkillTag skillName="C++" skillIconSrc={cppLogoSrc} />
               <SkillTag skillName="Express JS" skillIconSrc={expressLogoSrc} />
               <SkillTag skillName="Python" skillIconSrc={pythonLogoSrc} />
+              <SkillTag skillName="MongoDB" skillIconSrc={mongoDBLogoSrc} />
           </div>
       </div>
   );
