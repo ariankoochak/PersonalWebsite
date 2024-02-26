@@ -41,7 +41,7 @@ export default function DatasDiv() {
           case "Experiences ":
               return <ExperienceMainDatas />;
           default:
-              return "bug in handleActiveTabDatas fucntion";
+              SetActiveTab("Certificates ");
       }
     }
     const handleRenderOtherstab = ()=>{
