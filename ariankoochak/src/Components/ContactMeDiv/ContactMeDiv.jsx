@@ -15,7 +15,7 @@ const handleContactMeClick = ()=>{
           <div className="contact-container">
               <span>I’m available for work</span>
               <button className="contact-me-btn" onClick={handleContactMeClick}>
-                  <i class="fa-solid fa-circle"></i> Contact me
+                  <i className="fa-solid fa-circle"></i> Contact me
               </button>
               <a href="./CV.pdf" download>
                   <button
