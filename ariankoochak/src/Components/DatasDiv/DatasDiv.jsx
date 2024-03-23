@@ -10,22 +10,38 @@ export default function DatasDiv() {
       SetActiveTab(e.target.innerText);
   };
   const tabs = [
-    {
-      name:'Certificates ',
-      code:<h3 onClick={handleClickTab}>Certificates <i className="fa-solid fa-file-certificate"></i></h3>,
-    },
-    {
-      name:"Awards ",
-      code:<h3 onClick={handleClickTab}>Awards <i className="fa-solid fa-award"></i></h3>,
-    },
-    {
-      name :"Projects ",
-      code :<h3 onClick={handleClickTab}>Projects <i className="fa-solid fa-code"></i></h3>,
-    },
-    {
-      name:"Experiences ",
-      code:<h3 onClick={handleClickTab}>Experiences <i className="fa-solid fa-rectangle-history"></i></h3>,
-    }
+      {
+          name: "Certificates ",
+          code: (
+              <h3 onClick={handleClickTab} key="Certificates">
+                  Certificates <i className="fa-solid fa-file-certificate"></i>
+              </h3>
+          ),
+      },
+      {
+          name: "Awards ",
+          code: (
+              <h3 onClick={handleClickTab} key="Awards">
+                  Awards <i className="fa-solid fa-award"></i>
+              </h3>
+          ),
+      },
+      {
+          name: "Projects ",
+          code: (
+              <h3 onClick={handleClickTab} key="Projects">
+                  Projects <i className="fa-solid fa-code"></i>
+              </h3>
+          ),
+      },
+      {
+          name: "Experiences ",
+          code: (
+              <h3 onClick={handleClickTab} key="Experiences">
+                  Experiences <i className="fa-solid fa-rectangle-history"></i>
+              </h3>
+          ),
+      },
   ];
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
     const [activeTab, SetActiveTab] = useState("Certificates ");
