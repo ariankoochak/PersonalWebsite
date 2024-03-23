@@ -30,7 +30,6 @@ export default function DatasDiv() {
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
     const [activeTab, SetActiveTab] = useState("Certificates ");
     const handleActiveTabDatas = ()=>{
-      console.log(activeTab);
       switch (activeTab) {
           case "Certificates ":
               return <CertificatesMainDatas />;
