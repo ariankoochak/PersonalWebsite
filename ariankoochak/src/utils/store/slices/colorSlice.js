@@ -1,10 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+const colors = ["blue", "red", "green", "orange"];
+const randomColor = colors[Math.floor(Math.random() * colors.length)];
 const initialState = {
     mainColor: {
-        color: "persian-blue-color",
-        backgroundColor: "persian-blue-Backgroundcolor",
-        backgroundColorDiv: "persian-blue-div-color",
+        name : randomColor,
+        color: `persian-${randomColor}-color`,
+        backgroundColor: `persian-${randomColor}-Backgroundcolor`,
+        backgroundColorDiv: `persian-${randomColor}-div-color`,
     },
 };
 

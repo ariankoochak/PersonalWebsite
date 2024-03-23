@@ -5,7 +5,7 @@ import { setBlue, setGreen, setOrange, setRed } from '../../utils/store/slices/c
 export default function ColorChanger() {
     const colors = ['blue','red','green','orange']
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
-    const [selectedColor, setSelectedColor] = useState("blue");
+    const [selectedColor, setSelectedColor] = useState(mainColor.name);
     const dispatch = useDispatch();
     const handleColorClick = (e)=>{
         switch (e.target.id) {
