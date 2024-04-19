@@ -1,267 +1,161 @@
-@font-face {
-    font-family: 'Roboto-Black';
-    src: url('../Fonts/Roboto/Roboto-Black.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-BlackItalic';
-    src: url('../Fonts/Roboto/Roboto-BlackItalic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../Fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-BoldItalic';
-    src: url('../Fonts/Roboto/Roboto-BoldItalic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Italic';
-    src: url('../Fonts/Roboto/Roboto-Italic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url('../Fonts/Roboto/Roboto-Light.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-LightItalic';
-    src: url('../Fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../Fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-MediumItalic';
-    src: url('../Fonts/Roboto/Roboto-MediumItalic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../Fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-Thin';
-    src: url('../Fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto-ThinItalic';
-    src: url('../Fonts/Roboto/Roboto-ThinItalic.woff2') format('woff2'),
-        url('../Fonts/Roboto/Roboto-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
 
 ::-webkit-scrollbar {
-  width: 10px;
-  border-radius: 200px;
+    width: 10px;
+    border-radius: 200px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0353a400; 
-  border-radius: 200px;
+    background: #0353a400;
+    border-radius: 200px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #292929; 
-  border-radius: 200px;
+    background: #292929;
+    border-radius: 200px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0f0f0f; 
+    background: #0f0f0f;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: #0E0E0F;
+    background-color: #0e0e0f;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     width: 100%;
 }
 
-button{
+button {
     border: none;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-a{
+a {
     border: none;
     color: inherit;
 }
 
-.persian-blue-color{
-    color: #0067A5;
+.persian-blue-color {
+    color: #0067a5;
 }
-.persian-blue-Backgroundcolor{
-    background-color: #0067A5;
+.persian-blue-Backgroundcolor {
+    background-color: #0067a5;
 }
-.persian-blue-div-color{
-    background-color: #1B1B1E;
-}
-
-.persian-green-color{
-    color: #00A693;
-}
-.persian-green-Backgroundcolor{
-    background-color: #00A693;
-}
-.persian-green-div-color{
-    background-color: #1B1E1D;
+.persian-blue-div-color {
+    background-color: #1b1b1e;
 }
 
-.persian-red-color{
-    color: #CC3333;
+.persian-green-color {
+    color: #00a693;
 }
-.persian-red-Backgroundcolor{
-    background-color: #CC3333;
+.persian-green-Backgroundcolor {
+    background-color: #00a693;
 }
-.persian-red-div-color{
-    background-color: #1E1B1B;
-}
-
-.persian-orange-color{
-    color: #D99058;
-}
-.persian-orange-Backgroundcolor{
-    background-color: #D99058;
-}
-.persian-orange-div-color{
-    background-color: #1E1C1B;
+.persian-green-div-color {
+    background-color: #1b1e1d;
 }
 
-.main{
+.persian-red-color {
+    color: #cc3333;
+}
+.persian-red-Backgroundcolor {
+    background-color: #cc3333;
+}
+.persian-red-div-color {
+    background-color: #1e1b1b;
+}
+
+.persian-orange-color {
+    color: #d99058;
+}
+.persian-orange-Backgroundcolor {
+    background-color: #d99058;
+}
+.persian-orange-div-color {
+    background-color: #1e1c1b;
+}
+
+.main {
     margin-top: 10px;
 }
-.container{
+.container {
     width: 1600px;
     margin: 0 auto;
 }
 
-.color-changer-div div{
+.color-changer-div div {
     width: 20px;
     height: 20px;
     display: inline-block;
     border-radius: 50%;
-    margin: 10px 5px; 
+    margin: 10px 5px;
     position: relative;
     left: 20px;
     top: 2px;
     cursor: pointer;
 }
 
-.selected-color{
+.selected-color {
     border: 1px solid white;
 }
 
-.color-changer-div{
+.color-changer-div {
     margin-bottom: 15px;
 }
 
-
-.contact-and-me-data{
+.contact-and-me-data {
     width: 33%;
     display: inline-block;
 }
 
-.about-myskills-certificates-data{
+.about-myskills-certificates-data {
     display: inline-block;
     width: 67%;
     float: right;
 }
 
-.common-styles-div{
+.common-styles-div {
     border-radius: 20px;
     color: white;
-    
 }
 
-.title-div{
-    font-family: Roboto-Bold;
+.title-div {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 28px;
     padding: 30px 20px 30px 50px;
 }
 
-.title-div h2{
+.title-div h2 {
     margin-bottom: 10px;
 }
 
-
-
-.image-and-contact-container div{
+.image-and-contact-container div {
     display: inline-block;
 }
 
-
-
-.image-div{
-    background: url('../Images/profile.jpg');
+.image-div {
+    background: url("../Images/profile.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 15px;
@@ -270,29 +164,30 @@ a{
     overflow: hidden;
 }
 
-
-.contact-div{
+.contact-div {
     width: 48.5%;
     height: 257.438px;
     float: right;
     margin-top: 15px;
 }
 
-.contact-div .contact-container{
+.contact-div .contact-container {
     /* background-color: red; */
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    font-family: Roboto-Light;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     margin-top: 19%;
 }
 
-.contact-div .contact-container span{
+.contact-div .contact-container span {
     display: block;
     font-size: 18px;
 }
 
-.contact-div .contact-container button{
+.contact-div .contact-container button {
     margin: 0 auto;
     margin-top: 22px;
     width: 75%;
@@ -301,114 +196,120 @@ a{
     font-size: 20px;
 }
 
-.contact-div .contact-container .contact-me-btn{
+.contact-div .contact-container .contact-me-btn {
     background-color: black;
     color: white;
 }
 
-.contact-div .contact-container .contact-me-btn:hover{
+.contact-div .contact-container .contact-me-btn:hover {
     background-color: #101010;
 }
 
-.contact-div .contact-container .contact-me-btn i{
-    color:  #AAFF00;
+.contact-div .contact-container .contact-me-btn i {
+    color: #aaff00;
     font-size: 15px;
     position: relative;
     top: -1px;
 }
 
-.contact-div .contact-container .download-cv-btn{
+.contact-div .contact-container .download-cv-btn {
     color: white;
 }
 
-.socials-div{
+.socials-div {
     text-align: center;
     margin-top: 11px;
 }
-.socials-div div{
+.socials-div div {
     padding: 20px 0;
     display: inline-block;
     width: 19%;
     margin: 0 10px;
 }
 
-.socials-div div:hover{
+.socials-div div:hover {
     cursor: pointer;
 }
 
-.socials-div .quera img{
+.socials-div .quera img {
     width: 55px;
     position: relative;
     top: 8px;
 }
 
-.socials-div div i{
+.socials-div div i {
     font-size: 55px;
 }
 
-.resume-div{
+.resume-div {
     margin-top: 15px;
 }
 
-.divs-title{
-    font-family: Roboto-Bold;
+.divs-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     padding-left: 30px;
     padding-top: 15px;
     font-size: 34px;
 }
 
-.resume-div .resume-data{
+.resume-div .resume-data {
     margin-top: 10px;
     padding: 0 30px;
     padding-bottom: 10px;
 }
 
-.resume-div .resume-data span{
-    font-family: Roboto-Light;
+.resume-div .resume-data span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-.resume-div .resume-data .line{
+.resume-div .resume-data .line {
     display: inline-block;
 }
 
-.resume-div .resume-data .value{
+.resume-div .resume-data .value {
     float: right;
 }
 
-.resume-div .resume-data div{
+.resume-div .resume-data div {
     border-radius: 10px;
     padding: 10px;
 }
-.resume-div .resume-data div:hover{
+.resume-div .resume-data div:hover {
     background-color: #101010;
 }
 
-.resume-div .resume-data .education{
+.resume-div .resume-data .education {
     height: 35px;
 }
 
-.my-skills-div{
+.my-skills-div {
     width: 33%;
     display: inline-block;
     margin-left: 15px;
 }
 
-.my-skills-div .skills{
+.my-skills-div .skills {
     margin: 10px 25px;
     min-height: 100px;
 }
 
-.skill-tag{
+.skill-tag {
     background-color: #595959;
     display: inline-block;
     padding: 6px 13px;
     border-radius: 20px;
-    font-family: Roboto-Light;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     margin: 3px;
     cursor: default;
 }
 
-.about-div{
+.about-div {
     min-height: 272px;
     float: right;
     width: 64%;
@@ -417,59 +318,62 @@ a{
     padding-bottom: 4px;
 }
 
-.about-div p{
+.about-div p {
     padding: 0 30px;
     text-align: justify;
-    font-family: Roboto-Regular;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.5;
 }
 
-.datas-div{
+.datas-div {
     margin-left: 15px;
     margin-top: 15px;
     height: 560px;
 }
 
-.datas-div .header div{
+.datas-div .header div {
     width: 50%;
     display: inline-block;
 }
 
-.datas-div .header{
+.datas-div .header {
     padding-top: 10px;
 }
 
-.datas-div .header .head-options h3{
+.datas-div .header .head-options h3 {
     display: inline-block;
-    font-family: Roboto-Bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     margin: 0 20px;
     cursor: pointer;
 }
 
-.datas-div .header .head-options h3:hover{
+.datas-div .header .head-options h3:hover {
     color: #a9a9a9;
 }
 
-.line{
+.line {
     margin: 15px auto;
     width: 95%;
     height: 1px;
     background-color: #373737;
 }
 
-.datas-div .main-datas{
+.datas-div .main-datas {
     margin: 0 auto;
     width: 95%;
     height: 450px;
     overflow-x: hidden;
 }
 
-
-.certificate-card{
+.certificate-card {
     /* background-color: red; */
 }
 
-.certificate-card .institute-image{
+.certificate-card .institute-image {
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -477,7 +381,7 @@ a{
     display: inline-block;
 }
 
-.certificate-datas{
+.certificate-datas {
     float: right;
     position: relative;
     right: 20px;
@@ -486,37 +390,41 @@ a{
     width: 87%;
 }
 
-.certificate-card .certificate-datas div{
+.certificate-card .certificate-datas div {
     display: inline-block;
     margin-top: 10px;
 }
 
-.certificate-card .certificate-datas .left-side{
+.certificate-card .certificate-datas .left-side {
     float: left;
 }
 
-.certificate-card .certificate-datas .right-side{
+.certificate-card .certificate-datas .right-side {
     float: right;
     text-align: right;
 }
 
-.certificate-card .certificate-datas span{
+.certificate-card .certificate-datas span {
     display: block;
-    font-family: Roboto-Regular;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
 }
 
-.certificate-card .certificate-datas .margin-down{
+.certificate-card .certificate-datas .margin-down {
     margin-bottom: 35px;
 }
 
-.certificate-card .institute-image i{
+.certificate-card .institute-image i {
     font-size: 100px;
 }
 
-.certificate-card .certificate-datas a{
+.certificate-card .certificate-datas a {
     text-decoration: none;
-    font-family: Roboto-Medium;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 20px;
     position: relative;
     top: 10px;
@@ -524,87 +432,89 @@ a{
 }
 
 @media only screen and (max-width: 1600px) {
-.container {width: 90%}
-  .contact-and-me-data{
-    width: 100%;
-    } 
-    .about-myskills-certificates-data{
+    .container {
+        width: 90%;
+    }
+    .contact-and-me-data {
         width: 100%;
     }
-    .image-div{
+    .about-myskills-certificates-data {
+        width: 100%;
+    }
+    .image-div {
         height: 300px;
     }
-    .contact-div{
+    .contact-div {
         height: 300px;
     }
-    .contact-div .contact-container span{
+    .contact-div .contact-container span {
         font-size: 23px;
     }
-    .contact-div .contact-container button{
+    .contact-div .contact-container button {
         font-size: 23px;
         width: 80%;
         margin-top: 26px;
     }
-    .resume-div .resume-data span{
+    .resume-div .resume-data span {
         font-size: 20px;
     }
-    .resume-div .resume-data .education{
+    .resume-div .resume-data .education {
         height: 60px;
         margin-bottom: 5px;
     }
-    .my-skills-div{
+    .my-skills-div {
         width: 100%;
         margin-left: 0;
         margin-top: 15px;
     }
-    .about-div{
+    .about-div {
         width: 100%;
         margin-top: 15px;
         float: none;
         margin-left: 0;
     }
-    .datas-div{
+    .datas-div {
         width: 100%;
         float: none;
         margin-left: 0;
         margin-bottom: 15px;
     }
-    .datas-div .head-options{
+    .datas-div .head-options {
         width: 65% !important;
     }
-    .datas-div .selected-head{
+    .datas-div .selected-head {
         width: 35% !important;
     }
-    .certificate-datas{
+    .certificate-datas {
         width: 80%;
     }
-     .certificate-card .certificate-datas .left-side{
+    .certificate-card .certificate-datas .left-side {
         width: 65%;
         margin-top: 0;
         margin-bottom: 10px;
     }
-    .certificate-card .certificate-datas .right-side{
+    .certificate-card .certificate-datas .right-side {
         width: 35%;
     }
-    .certificate-card .certificate-datas .margin-down{
+    .certificate-card .certificate-datas .margin-down {
         margin-bottom: 20px;
     }
 }
 
-@media (min-width:900px) and (max-width:1600px){
-    .image-div{
+@media (min-width: 900px) and (max-width: 1600px) {
+    .image-div {
         height: 300px;
         width: 48%;
     }
-    .contact-div{
+    .contact-div {
         height: 300px;
         width: 48%;
     }
-    .image-and-contact-container{
+    .image-and-contact-container {
         width: 60%;
         display: inline-block;
     }
-    .socials-div{
+    .socials-div {
         width: 38%;
         display: inline-block;
         margin-left: 15px;
@@ -612,125 +522,128 @@ a{
         float: right;
         padding: 51px 0;
     }
-    .socials-div div{
+    .socials-div div {
         width: 40%;
     }
 }
-@media (min-width:1200px) and (max-width:1600px){
-  .container {width: 1200px}
-    
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .container {
+        width: 1200px;
+    }
 }
 @media only screen and (max-width: 600px) {
-  .container {width: 90%}
-  .contact-and-me-data{
-    width: 100%;
-    } 
-    .title-div{
+    .container {
+        width: 90%;
+    }
+    .contact-and-me-data {
+        width: 100%;
+    }
+    .title-div {
         font-size: 20px;
-         padding: 20px 10px 20px 20px;
-    }  
-    .title-div h3{
+        padding: 20px 10px 20px 20px;
+    }
+    .title-div h3 {
         font-size: 24px;
     }
-    .image-div{
+    .image-div {
         height: 200px;
     }
-    .contact-div{
+    .contact-div {
         height: 200px;
     }
-    .contact-div .contact-container span{
+    .contact-div .contact-container span {
         font-size: 15px;
     }
-    .contact-div .contact-container button{
+    .contact-div .contact-container button {
         font-size: 17px;
         width: 85%;
         margin-top: 15px;
     }
-    .socials-div div{
+    .socials-div div {
         width: 18%;
     }
-    .resume-div .resume-data span{
+    .resume-div .resume-data span {
         font-size: 15px;
     }
-    .resume-div .resume-data{
+    .resume-div .resume-data {
         padding: 0 10px;
     }
-    .resume-div .resume-data .education{
+    .resume-div .resume-data .education {
         height: 60px;
         margin-bottom: 5px;
     }
-    .about-myskills-certificates-data{
+    .about-myskills-certificates-data {
         width: 100%;
     }
-    .my-skills-div{
+    .my-skills-div {
         width: 100%;
         margin-left: 0;
         margin-top: 10px;
     }
-    .about-div{
+    .about-div {
         width: 100%;
         margin-top: 15px;
         float: none;
         margin-left: 0;
     }
-    .datas-div{
+    .datas-div {
         width: 100%;
         float: none;
         margin-left: 0;
         margin-bottom: 15px;
     }
-    .divs-title{
+    .divs-title {
         padding-left: 20px;
     }
-    .datas-div .divs-title{
+    .datas-div .divs-title {
         font-size: 30px;
     }
-    .datas-div .header{
+    .datas-div .header {
         display: block !important;
         float: none;
     }
-    .datas-div .head-options{
+    .datas-div .head-options {
         display: block !important;
         float: none;
         width: 100% !important;
     }
-    .datas-div .head-options h3{
+    .datas-div .head-options h3 {
         display: inline-block;
         padding-top: 10px;
     }
-    .certificate-card .institute-image{
+    .certificate-card .institute-image {
         width: 70px;
         height: 70px;
     }
-    .certificate-card{
+    .certificate-card {
         height: 100px;
     }
-    .certificate-datas{
+    .certificate-datas {
         right: 2px;
         width: 75%;
     }
-    .certificate-card .certificate-datas span{
+    .certificate-card .certificate-datas span {
         font-size: 15px;
     }
-    .certificate-card .certificate-datas .margin-down{
+    .certificate-card .certificate-datas .margin-down {
         margin-bottom: 10px;
     }
-    .certificate-card .institute-image i{
+    .certificate-card .institute-image i {
         font-size: 70px;
     }
-    .certificate-card .certificate-datas .left-side{
+    .certificate-card .certificate-datas .left-side {
         width: 100%;
         margin-top: 0;
         margin-bottom: 10px;
     }
-    .certificate-card .certificate-datas .right-side{
+    .certificate-card .certificate-datas .right-side {
         width: 100%;
         text-align: left;
     }
-    .main-datas{
+    .main-datas {
         height: 380px !important;
     }
-    .certificate-card .certificate-datas a{
+    .certificate-card .certificate-datas a {
         right: 0;
         top: -10px;
         font-size: 17px;
