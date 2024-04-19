@@ -11,7 +11,7 @@ export default function ResumeDiv() {
           <div className="resume-data">
               <div className="age">
                   <span className="title">Age</span>
-                  <span className="value">20 Years</span>
+                  <span className="value">21 Years</span>
               </div>
               <div className="city">
                   <span className="title">Address</span>
