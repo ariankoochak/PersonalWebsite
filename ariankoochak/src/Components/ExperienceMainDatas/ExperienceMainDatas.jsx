@@ -2,12 +2,21 @@ import React from 'react'
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
 import lewmarkLogoSrc from '../../Assets/Images/LewmarkLogo.jpg'
 import ZistabLogoSrc from "../../Assets/Images/ZistabLogo.jpg";
+import mosabpooyaLogoSrc from '../../Assets/Images/MosabpooyaLogo.png'
 
 
 
 export default function ExperienceMainDatas() {
   return (
       <>
+          <ExperienceCard
+              title="Full-stack Developer"
+              issued="mosab pooya Company"
+              issuedIconSrc={mosabpooyaLogoSrc}
+              year="2024-present"
+              City="Iran-Tehran"
+          />
+          <div className="line"></div>
           <ExperienceCard
               title="IT manager"
               issued="Zistab Company"
