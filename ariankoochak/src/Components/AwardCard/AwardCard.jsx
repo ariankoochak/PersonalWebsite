@@ -4,7 +4,7 @@ export default function AwardCard({ title, issued, issuedIconSrc, year }) {
     return (
         <div className="certificate-card">
             <div className="institute-image">
-                <img src={issuedIconSrc} alt={`${issued}`} />
+                <img loading='lazy' src={issuedIconSrc} alt={`${issued}`} />
             </div>
             <div className="certificate-datas">
                 <div className="left-side">

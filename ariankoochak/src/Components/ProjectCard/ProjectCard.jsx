@@ -6,7 +6,7 @@ export default function ProjectCard({ title, iconSrc, Techs, live ,mainLink}) {
     const handleProjectImage = ()=>{
         if(iconSrc === 'github')
             return <i className="fa-brands fa-github"></i>;
-        return <img src={iconSrc} alt={`${title}`} />;
+        return <img loading='lazy' src={iconSrc} alt={`${title}`} />;
     }
     const handleLiveProject = ()=>{
         if(live !== '')

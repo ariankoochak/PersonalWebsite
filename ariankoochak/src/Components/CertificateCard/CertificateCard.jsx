@@ -5,7 +5,7 @@ export default function CertificateCard({ title, institute, instituteIconSrc, te
     return (
         <div className="certificate-card">
             <div className="institute-image">
-                <img src={instituteIconSrc} alt={`${institute}`} />
+                <img loading='lazy' src={instituteIconSrc} alt={`${institute}`} />
             </div>
             <div className="certificate-datas">
                 <div className="left-side">

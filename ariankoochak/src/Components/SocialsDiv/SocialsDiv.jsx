@@ -26,7 +26,7 @@ export default function SocialsDiv() {
           </a>
           <a href="https://quera.org/profile/DULDQ" target='_blank' rel="noreferrer">
           <div className="quera">
-              <img src={queraImageSrc} alt="quera" />
+              <img loading='lazy' src={queraImageSrc} alt="quera" />
           </div>
           </a>
       </div>
