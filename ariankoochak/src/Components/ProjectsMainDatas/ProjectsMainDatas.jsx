@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard/ProjectCard'
-import myLogoSrc from '../../Assets/Images/MyLogo.jpg'
+import myLogoSrc from '../../Assets/Images/MyLogo.webp'
 export default function ProjectsMainDatas() {
   return (
       <>

@@ -1,17 +1,17 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import SkillTag from '../SkillTag/SkillTag';
-import jsLogoSrc from '../../Assets/Images/JsLogo.png'
-import reactLogoSrc from "../../Assets/Images/ReactLogo.png";
-import nodeLogoSrc from "../../Assets/Images/NodeJsLogo.png";
-import sqlServerLogoSrc from "../../Assets/Images/SqlServerLogo.png";
-import htmlLogoSrc from "../../Assets/Images/HtmlLogo.png";
-import cssLogoSrc from "../../Assets/Images/CssLogo.png";
-import cppLogoSrc from "../../Assets/Images/CppLogo.png";
-import expressLogoSrc from "../../Assets/Images/ExpressJsLogo.png";
-import pythonLogoSrc from "../../Assets/Images/PythonLogo.png";
-import nextJsLogoSrc from "../../Assets/Images/NextJsLogo.png";
-import mongoDBLogoSrc from "../../Assets/Images/MongoDbLogo.png"
+import jsLogoSrc from '../../Assets/Images/JsLogo.webp'
+import reactLogoSrc from "../../Assets/Images/ReactLogo.webp";
+import nodeLogoSrc from "../../Assets/Images/NodeJsLogo.webp";
+import sqlServerLogoSrc from "../../Assets/Images/SqlServerLogo.webp";
+import htmlLogoSrc from "../../Assets/Images/HtmlLogo.webp";
+import cssLogoSrc from "../../Assets/Images/CssLogo.webp";
+import cppLogoSrc from "../../Assets/Images/CppLogo.webp";
+import expressLogoSrc from "../../Assets/Images/ExpressJsLogo.webp";
+import pythonLogoSrc from "../../Assets/Images/PythonLogo.webp";
+import nextJsLogoSrc from "../../Assets/Images/NextJsLogo.webp";
+import mongoDBLogoSrc from "../../Assets/Images/MongoDbLogo.webp"
 
 
 

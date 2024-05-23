@@ -155,7 +155,7 @@ a {
 }
 
 .image-div {
-    background: url("../Images/profile.jpg");
+    background: url("../Images/profile.webp");
     background-position: center;
     background-size: cover;
     margin-top: 15px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import queraImageSrc from '../../Assets/Images/QueraLogo.png'
+import queraImageSrc from '../../Assets/Images/QueraLogo.webp'
 export default function SocialsDiv() {
     const mainColor = useSelector((store) => store.colorSlice.mainColor);
   return (

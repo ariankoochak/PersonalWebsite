@@ -1,8 +1,8 @@
 import React from 'react'
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
-import lewmarkLogoSrc from '../../Assets/Images/LewmarkLogo.jpg'
-import ZistabLogoSrc from "../../Assets/Images/ZistabLogo.jpg";
-import mosabpooyaLogoSrc from '../../Assets/Images/MosabpooyaLogo.png'
+import lewmarkLogoSrc from '../../Assets/Images/LewmarkLogo.webp'
+import ZistabLogoSrc from "../../Assets/Images/ZistabLogo.webp";
+import mosabpooyaLogoSrc from '../../Assets/Images/MosabpooyaLogo.webp'
 
 
 

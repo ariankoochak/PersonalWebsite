@@ -1,11 +1,11 @@
 import React from 'react'
 import AwardCard from '../AwardCard/AwardCard'
-import iranOpenLogoSrc from '../../Assets/Images/IranOpenLogo.jpeg'
-import rcapLogoSrc from "../../Assets/Images/RcapLogo.jpg";
-import robocup2016LogoSrc from "../../Assets/Images/RoboCup2016Logo.jpg";
-import robocup2017LogoSrc from "../../Assets/Images/RoboCup2017Logo.jpg";
-import salamLogoSrc from "../../Assets/Images/SalamLogo.jpg";
-import sampadLogoSrc from "../../Assets/Images/SampadLogo.jpg";
+import iranOpenLogoSrc from '../../Assets/Images/IranOpenLogo.webp'
+import rcapLogoSrc from "../../Assets/Images/RcapLogo.webp";
+import robocup2016LogoSrc from "../../Assets/Images/RoboCup2016Logo.webp";
+import robocup2017LogoSrc from "../../Assets/Images/RoboCup2017Logo.webp";
+import salamLogoSrc from "../../Assets/Images/SalamLogo.webp";
+import sampadLogoSrc from "../../Assets/Images/SampadLogo.webp";
 
 
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import CertificateCard from '../CertificateCard/CertificateCard'
-import mtfLogoSrc from '../../Assets/Images/MftLogo.jpg'
-import sharifLogoSrc from "../../Assets/Images/SharifLogo.jpg";
-import rahsaLogoSrc from "../../Assets/Images/RahsaLogo.jpg";
+import mtfLogoSrc from '../../Assets/Images/MftLogo.webp'
+import sharifLogoSrc from "../../Assets/Images/SharifLogo.webp";
+import rahsaLogoSrc from "../../Assets/Images/RahsaLogo.webp";
 
 
 export default function CertificatesMainDatas() {
