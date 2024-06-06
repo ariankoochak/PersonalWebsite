@@ -8,10 +8,10 @@ export default function SkillTag(props) {
             background-position: center;
             background-size: cover;
             display: inline-block;
-            width: 18px;
-            height: 18px;
+            width: 16px;
+            height: 16px;
             position: relative;
-            top: 2px;
+            top: 2.5px;
             margin-right: 4px;
         }
     `;

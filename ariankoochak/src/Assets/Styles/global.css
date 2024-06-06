@@ -98,19 +98,23 @@ a {
     margin-top: 10px;
 }
 .container {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
 }
 
+.color-changer-div{
+    height: 60px;
+}
+
 .color-changer-div div {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
     border-radius: 50%;
     margin: 10px 5px;
     position: relative;
     left: 20px;
-    top: 2px;
+    top: 7px;
     cursor: pointer;
 }
 
@@ -142,8 +146,8 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 28px;
-    padding: 30px 20px 30px 50px;
+    font-size: 22px;
+    padding: 25px 20px 25px 40px;
 }
 
 .title-div h2 {
@@ -160,13 +164,13 @@ a {
     background-size: cover;
     margin-top: 15px;
     width: 48%;
-    height: 257.438px;
+    height: 190.075px;
     overflow: hidden;
 }
 
 .contact-div {
     width: 48.5%;
-    height: 257.438px;
+    height: 190.075px;
     float: right;
     margin-top: 15px;
 }
@@ -179,21 +183,21 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    margin-top: 19%;
+    margin-top: 11%;
 }
 
 .contact-div .contact-container span {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-div .contact-container button {
     margin: 0 auto;
-    margin-top: 22px;
-    width: 75%;
+    margin-top: 16px;
+    width: 70%;
     padding: 15px 0;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact-div .contact-container .contact-me-btn {
@@ -207,9 +211,10 @@ a {
 
 .contact-div .contact-container .contact-me-btn i {
     color: #aaff00;
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
     top: -1px;
+    left: -1px;
 }
 
 .contact-div .contact-container .download-cv-btn {
@@ -232,13 +237,13 @@ a {
 }
 
 .socials-div .quera img {
-    width: 55px;
+    width: 45px;
     position: relative;
-    top: 8px;
+    top: 6px;
 }
 
 .socials-div div i {
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .resume-div {
@@ -251,12 +256,12 @@ a {
     font-style: normal;
     padding-left: 30px;
     padding-top: 15px;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .resume-div .resume-data {
     margin-top: 10px;
-    padding: 0 30px;
+    padding: 0 20px;
     padding-bottom: 10px;
 }
 
@@ -264,6 +269,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 14px;
 }
 
 .resume-div .resume-data .line {
@@ -276,7 +282,7 @@ a {
 
 .resume-div .resume-data div {
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
 }
 .resume-div .resume-data div:hover {
     background-color: #101010;
@@ -293,7 +299,7 @@ a {
 }
 
 .my-skills-div .skills {
-    margin: 10px 25px;
+    margin: 10px 20px;
     min-height: 100px;
 }
 
@@ -301,21 +307,22 @@ a {
     background-color: #595959;
     display: inline-block;
     padding: 6px 13px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
+    font-size: 13px;
     margin: 3px;
     cursor: default;
 }
 
 .about-div {
-    min-height: 272px;
+    min-height: 294.200px;
     float: right;
-    width: 64%;
+    width: 63%;
     display: inline-block;
     margin-left: 15px;
-    padding-bottom: 4px;
+    /* padding-bottom: 4px; */
 }
 
 .about-div p {
@@ -323,6 +330,7 @@ a {
     text-align: justify;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-size: 15px;
     font-style: normal;
     line-height: 1.5;
 }
@@ -330,16 +338,21 @@ a {
 .datas-div {
     margin-left: 15px;
     margin-top: 15px;
-    height: 560px;
+    margin-bottom: 15px;
+    height: 407px;
 }
 
 .datas-div .header div {
-    width: 50%;
+    width: 40%;
     display: inline-block;
 }
 
 .datas-div .header {
     padding-top: 10px;
+}
+
+.datas-div .header .head-options{
+    width: 60%;
 }
 
 .datas-div .header .head-options h3 {
@@ -365,7 +378,7 @@ a {
 .datas-div .main-datas {
     margin: 0 auto;
     width: 95%;
-    height: 450px;
+    height: 300px;
     overflow-x: hidden;
 }
 
@@ -374,8 +387,8 @@ a {
 }
 
 .certificate-card .institute-image {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
     overflow: hidden;
     display: inline-block;
@@ -384,7 +397,8 @@ a {
 .certificate-datas {
     float: right;
     position: relative;
-    right: 20px;
+    right: 19px;
+    top: -10px;
     display: inline-block;
     cursor: default;
     width: 87%;
@@ -409,7 +423,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .certificate-card .certificate-datas .margin-down {
@@ -417,7 +431,7 @@ a {
 }
 
 .certificate-card .institute-image i {
-    font-size: 100px;
+    font-size: 70px;
 }
 
 .certificate-card .certificate-datas a {
@@ -425,18 +439,24 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
     top: 10px;
     right: 30px;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1200px) {
     .container {
         width: 90%;
     }
     .contact-and-me-data {
         width: 100%;
+    }
+    .socials-div div i{
+        font-size: 55px;
+    }
+    .socials-div .quera img{
+        width: 55px;
     }
     .about-myskills-certificates-data {
         width: 100%;
@@ -446,6 +466,10 @@ a {
     }
     .contact-div {
         height: 300px;
+    }
+     .contact-div .contact-container{
+        position: relative;
+        top: 6%;
     }
     .contact-div .contact-container span {
         font-size: 23px;
@@ -486,7 +510,9 @@ a {
         width: 35% !important;
     }
     .certificate-datas {
-        width: 80%;
+        width: 86%;
+        right: 30px;
+        top: 6px;
     }
     .certificate-card .certificate-datas .left-side {
         width: 65%;
@@ -495,13 +521,15 @@ a {
     }
     .certificate-card .certificate-datas .right-side {
         width: 35%;
+        position: relative;
+        top: -16px;
     }
     .certificate-card .certificate-datas .margin-down {
         margin-bottom: 20px;
     }
 }
 
-@media (min-width: 900px) and (max-width: 1600px) {
+@media (min-width: 992px) and (max-width: 1200px) {
     .image-div {
         height: 300px;
         width: 48%;
@@ -525,13 +553,46 @@ a {
     .socials-div div {
         width: 40%;
     }
-}
-@media (min-width: 1200px) and (max-width: 1600px) {
-    .container {
-        width: 1200px;
+    .about-div{
+        min-height: auto;
+        padding-bottom: 10px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .image-div {
+        height: 350px;
+    }
+    .about-div{
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+    .contact-div {
+        height: 350px;
+    }
+     .contact-div .contact-container button {
+        font-size: 22px;
+        width: 85%;
+        margin-top: 30px;
+    }
+    .certificate-datas {
+        width: 86%;
+        right: 10px;
+        top: 6px;
+    }
+    .datas-div .header .selected-head{
+        width: 30% !important;
+    }
+    .datas-div .header .head-options{
+        width: 70% !important;
+    }
+
+}
+@media only screen and (max-width: 748px) {
     .container {
         width: 90%;
     }
@@ -548,6 +609,7 @@ a {
     .image-div {
         height: 200px;
     }
+    
     .contact-div {
         height: 200px;
     }
@@ -555,7 +617,7 @@ a {
         font-size: 15px;
     }
     .contact-div .contact-container button {
-        font-size: 17px;
+        font-size: 14px;
         width: 85%;
         margin-top: 15px;
     }
@@ -626,7 +688,7 @@ a {
         font-size: 15px;
     }
     .certificate-card .certificate-datas .margin-down {
-        margin-bottom: 10px;
+        margin-bottom: 9px;
     }
     .certificate-card .institute-image i {
         font-size: 70px;
@@ -641,7 +703,7 @@ a {
         text-align: left;
     }
     .main-datas {
-        height: 380px !important;
+        height: 248px !important;
     }
     .certificate-card .certificate-datas a {
         right: 0;
