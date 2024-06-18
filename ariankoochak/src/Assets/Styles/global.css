@@ -106,7 +106,7 @@ a {
     height: 60px;
 }
 
-.color-changer-div div {
+.color-changer-div .color {
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -117,6 +117,25 @@ a {
     top: 7px;
     cursor: pointer;
 }
+
+.color-changer-div .left-side{
+    width: 95%;
+    display: inline-block;
+}
+
+.color-changer-div .right-side{
+    height: 40px;
+    position: relative;
+    top: -2px;
+    display: inline-block;
+}
+
+.color-changer-div .right-side a{
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 .selected-color {
     border: 1px solid white;
@@ -445,20 +464,6 @@ a {
     right: 30px;
 }
 
-.cloud-div{
-    border-radius: 20px;
-    width: 70%;
-    text-align: center;
-    padding: 30px;
-    margin: 0 auto;
-    margin-top: 30%;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 1200px) {
     .container {
         width: 90%;
@@ -609,6 +614,9 @@ a {
 @media only screen and (max-width: 748px) {
     .container {
         width: 90%;
+    }
+    .color-changer-div .left-side{
+        width: 85%;
     }
     .contact-and-me-data {
         width: 100%;
