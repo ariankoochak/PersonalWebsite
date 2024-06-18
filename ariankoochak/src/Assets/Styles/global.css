@@ -445,6 +445,20 @@ a {
     right: 30px;
 }
 
+.cloud-div{
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 30%;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1200px) {
     .container {
         width: 90%;
