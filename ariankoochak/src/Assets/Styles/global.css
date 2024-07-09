@@ -724,8 +724,11 @@ a {
         width: 100%;
         text-align: left;
     }
+    .datas-div .header .head-options{
+        width: 90% !important;
+    }
     .main-datas {
-        height: 248px !important;
+        height: 240px !important;
     }
     .certificate-card .certificate-datas a {
         right: 0;
