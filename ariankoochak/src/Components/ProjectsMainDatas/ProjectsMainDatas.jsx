@@ -37,6 +37,14 @@ export default function ProjectsMainDatas() {
           />
           <div className="line"></div>
           <ProjectCard
+              title="Clock factory ticket-service"
+              Techs="ReactJs/Redux/ExpressJs/MongoDB"
+              live=""
+              iconSrc="github"
+              mainLink="https://github.com/ariankoochak/ClockService"
+          />
+          <div className="line"></div>
+          <ProjectCard
               title="Dijkstra"
               Techs="C++"
               live=""
