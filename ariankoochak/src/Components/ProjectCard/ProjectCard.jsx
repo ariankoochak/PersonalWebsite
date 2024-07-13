@@ -18,7 +18,7 @@ export default function ProjectCard({ title, iconSrc, Techs, live ,mainLink}) {
         
     }
     const marginDownObject = {
-        marginBottom : '6px',
+        marginBottom : '4px',
     }
     return (
         <div className="certificate-card">
