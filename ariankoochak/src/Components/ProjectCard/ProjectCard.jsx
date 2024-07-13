@@ -17,15 +17,16 @@ export default function ProjectCard({ title, iconSrc, Techs, live ,mainLink}) {
             return <a href={mainLink} className={`${mainColor.color}`} target="_blank" rel="noreferrer">See code on github</a>
         
     }
+    const marginDownObject = {
+        marginBottom : '6px',
+    }
     return (
         <div className="certificate-card">
-            <div className="institute-image">
-               {handleProjectImage()}
-            </div>
+            <div className="institute-image">{handleProjectImage()}</div>
             <div className="certificate-datas">
                 <div className="left-side">
                     <span className="margin-down">{title}</span>
-                    <span>{Techs}</span>
+                    <span style={marginDownObject}>{Techs}</span>
                 </div>
                 <div className="right-side">
                     {handleLiveProject()}
