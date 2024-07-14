@@ -166,7 +166,7 @@ a {
     font-weight: 700;
     font-style: normal;
     font-size: 22px;
-    padding: 25px 20px 25px 40px;
+    padding: 25px 10px 25px 40px;
 }
 
 .title-div h2 {
@@ -623,10 +623,13 @@ a {
     }
     .title-div {
         font-size: 20px;
-        padding: 20px 10px 20px 20px;
+        padding: 20px 0px 20px 20px;
+    }
+    .title-div h2{
+        font-size: 26px;
     }
     .title-div h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .image-div {
         height: 200px;
