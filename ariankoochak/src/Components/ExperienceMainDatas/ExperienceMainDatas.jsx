@@ -13,7 +13,7 @@ export default function ExperienceMainDatas() {
               title="Full-stack Developer"
               issued="mosab pooya Company"
               issuedIconSrc={mosabpooyaLogoSrc}
-              year="2024-present"
+              date="april 2024-present"
               City="Iran-Tehran"
           />
           <div className="line"></div>
@@ -21,7 +21,7 @@ export default function ExperienceMainDatas() {
               title="IT manager"
               issued="Zistab Company"
               issuedIconSrc={ZistabLogoSrc}
-              year="2022-2023"
+              date="september 2022 - june 2023"
               City="Iran-Tehran"
           />
           <div className="line"></div>
@@ -29,7 +29,7 @@ export default function ExperienceMainDatas() {
               title="Front-End Developer(Remote) with React JS & React Native"
               issued="Lewmark Company"
               issuedIconSrc={lewmarkLogoSrc}
-              year="2019-2020"
+              date="july 2020 - september 2020"
               City="England-manchester"
           />
       </>

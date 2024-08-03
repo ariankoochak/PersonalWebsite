@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ExperienceCard({ title, issued, issuedIconSrc, year, City }) {
+export default function ExperienceCard({ title, issued, issuedIconSrc, date, City }) {
     return (
         <div className="certificate-card">
             <div className="institute-image">
@@ -12,7 +12,7 @@ export default function ExperienceCard({ title, issued, issuedIconSrc, year, Cit
                     <span>{issued}</span>
                 </div>
                 <div className="right-side">
-                    <span className="margin-down">{year}</span>
+                    <span className="margin-down">{date}</span>
                     <span>{City}</span>
                 </div>
             </div>
