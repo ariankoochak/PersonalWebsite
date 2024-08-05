@@ -54,7 +54,7 @@ export default function ColorChanger() {
         >
             <div className="left-side">{handleRenderColors()}</div>
             <div className="right-side">
-                <a href="https://mega.nz/folder/yQ11XJ6a#HKqEfDjBETz9vbxFVvbBMA" target="_blank" rel="noreferrer"> &#9729; &#65039;</a>
+                <a href="https://mega.nz/folder/yQ11XJ6a#HKqEfDjBETz9vbxFVvbBMA" target="_blank" rel="noreferrer">☁️</a>
             </div>
             {/* <div id = 'blue' className="persian-blue-Backgroundcolor selected-color" onClick={handleColorClick}></div>
           <div id = 'red' className="persian-red-Backgroundcolor" onClick={handleColorClick}></div>
