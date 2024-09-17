@@ -1,9 +1,27 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import myLogoSrc from '../../Assets/Images/MyLogo.webp'
+import momentMachineLogoSrc from '../../Assets/Images/momentMachine.webp'
+import valiendLogoSrc from '../../Assets/Images/valiend.webp'
 export default function ProjectsMainDatas() {
   return (
       <>
+          <ProjectCard
+              title="valiend"
+              Techs="npm package"
+              live="https://valiend.com"
+              iconSrc={valiendLogoSrc}
+              mainLink="https://github.com/ariankoochak/valiend"
+          />
+          <div className="line"></div>
+          <ProjectCard
+              title="moment-machine"
+              Techs="npm package"
+              live="https://moment-machine.com"
+              iconSrc={momentMachineLogoSrc}
+              mainLink="https://github.com/ariankoochak/moment-machine"
+          />
+          <div className="line"></div>
           <ProjectCard
               title="Personal Website(This Website)"
               Techs="ReactJs/NodeJS/Redux"
@@ -53,6 +71,14 @@ export default function ProjectsMainDatas() {
           />
           <div className="line"></div>
           <ProjectCard
+              title="product list task"
+              Techs="ReactJs/Redux"
+              live=""
+              iconSrc="github"
+              mainLink="https://github.com/ariankoochak/productsListTask"
+          />
+          <div className="line"></div>
+          <ProjectCard
               title="A-Star"
               Techs="C++"
               live=""
@@ -74,6 +100,14 @@ export default function ProjectsMainDatas() {
               live=""
               iconSrc="github"
               mainLink="https://github.com/ariankoochak/reactjs-Lab"
+          />
+          <div className="line"></div>
+          <ProjectCard
+              title="nodejs-Lab"
+              Techs="nodejs/mongoDB"
+              live=""
+              iconSrc="github"
+              mainLink="https://github.com/ariankoochak/nodejs-Lab"
           />
           <div className="line"></div>
           <ProjectCard
