@@ -5,8 +5,6 @@ import jsLogoSrc from '../../Assets/Images/JsLogo.webp'
 import reactLogoSrc from "../../Assets/Images/ReactLogo.webp";
 import nodeLogoSrc from "../../Assets/Images/NodeJsLogo.webp";
 import sqlServerLogoSrc from "../../Assets/Images/SqlServerLogo.webp";
-import htmlLogoSrc from "../../Assets/Images/HtmlLogo.webp";
-import cssLogoSrc from "../../Assets/Images/CssLogo.webp";
 import cppLogoSrc from "../../Assets/Images/CppLogo.webp";
 import expressLogoSrc from "../../Assets/Images/ExpressJsLogo.webp";
 import pythonLogoSrc from "../../Assets/Images/PythonLogo.webp";
@@ -29,8 +27,6 @@ export default function MySkillsDiv() {
               <SkillTag skillName="Node JS" skillIconSrc={nodeLogoSrc} />
               <SkillTag skillName="Sql Server" skillIconSrc={sqlServerLogoSrc} />
               <SkillTag skillName="Next JS" skillIconSrc={nextJsLogoSrc} />
-              <SkillTag skillName="HTML" skillIconSrc={htmlLogoSrc} />
-              <SkillTag skillName="CSS" skillIconSrc={cssLogoSrc} />
               <SkillTag skillName="C++" skillIconSrc={cppLogoSrc} />
               <SkillTag skillName="Express JS" skillIconSrc={expressLogoSrc} />
               <SkillTag skillName="Python" skillIconSrc={pythonLogoSrc} />

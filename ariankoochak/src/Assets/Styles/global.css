@@ -315,6 +315,7 @@ a {
     width: 33%;
     display: inline-block;
     margin-left: 15px;
+    min-height: 292px;
 }
 
 .my-skills-div .skills {
@@ -509,6 +510,7 @@ a {
         width: 100%;
         margin-left: 0;
         margin-top: 15px;
+        min-height: auto;
     }
     .about-div {
         width: 100%;
