@@ -13,7 +13,7 @@ export default function CertificatesMainDatas() {
               title="No-SQL Databases"
               institute="Quera"
               instituteIconSrc={queraLogoSrc}
-              techs="Redis/MongoDb/Cassandra/ElasticSearch"
+              techs="Redis/MongoDb/Neo4j/Cassandra/ElasticSearch"
               year="2024"
           />
           <div className="line"></div>
