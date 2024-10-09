@@ -3,17 +3,18 @@ import CertificateCard from '../CertificateCard/CertificateCard'
 import mtfLogoSrc from '../../Assets/Images/MftLogo.webp'
 import sharifLogoSrc from "../../Assets/Images/SharifLogo.webp";
 import rahsaLogoSrc from "../../Assets/Images/RahsaLogo.webp";
+import queraLogoSrc from '../../Assets/Images/queraLogoForCertificate.webp'
 
 
 export default function CertificatesMainDatas() {
   return (
       <>
           <CertificateCard
-              title="JavaScript & Ajax & jQuery"
-              institute="Tehran Institute of Technology"
-              instituteIconSrc={mtfLogoSrc}
-              techs="JavaScript/Ajax/jQuery"
-              year="2023"
+              title="No-SQL Databases"
+              institute="Quera"
+              instituteIconSrc={queraLogoSrc}
+              techs="Redis/MongoDb/Cassandra/ElasticSearch"
+              year="2024"
           />
           <div className="line"></div>
           <CertificateCard
@@ -29,6 +30,14 @@ export default function CertificatesMainDatas() {
               institute="Sharif University of Technology"
               instituteIconSrc={sharifLogoSrc}
               techs="React/Redux"
+              year="2023"
+          />
+          <div className="line"></div>
+          <CertificateCard
+              title="JavaScript & Ajax & jQuery"
+              institute="Tehran Institute of Technology"
+              instituteIconSrc={mtfLogoSrc}
+              techs="JavaScript/Ajax/jQuery"
               year="2023"
           />
           <div className="line"></div>
