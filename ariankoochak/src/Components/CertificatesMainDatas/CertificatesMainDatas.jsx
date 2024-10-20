@@ -18,11 +18,11 @@ export default function CertificatesMainDatas() {
           />
           <div className="line"></div>
           <CertificateCard
-              title="React JS"
+              title="Node JS"
               institute="Tehran Institute of Technology"
               instituteIconSrc={mtfLogoSrc}
-              techs="React/NextJS/Redux"
-              year="2023"
+              techs="Node/mongoDB/Redis"
+              year="2024"
           />
           <div className="line"></div>
           <CertificateCard
@@ -30,6 +30,14 @@ export default function CertificatesMainDatas() {
               institute="Sharif University of Technology"
               instituteIconSrc={sharifLogoSrc}
               techs="React/Redux"
+              year="2023"
+          />
+          <div className="line"></div>
+          <CertificateCard
+              title="React JS"
+              institute="Tehran Institute of Technology"
+              instituteIconSrc={mtfLogoSrc}
+              techs="React/NextJS/Redux"
               year="2023"
           />
           <div className="line"></div>
