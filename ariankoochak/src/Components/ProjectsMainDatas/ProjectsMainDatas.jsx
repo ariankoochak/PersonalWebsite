@@ -31,6 +31,14 @@ export default function ProjectsMainDatas() {
           />
           <div className="line"></div>
           <ProjectCard
+              title="sortex package"
+              Techs="npm package"
+              live="https://www.npmjs.com/package/sortex"
+              iconSrc="github"
+              mainLink="https://github.com/ariankoochak/sortex"
+          />
+          <div className="line"></div>
+          <ProjectCard
               title="Todo List"
               Techs="ReactJs/Redux"
               live="https://ariankoochak.github.io/todoMVC/"
