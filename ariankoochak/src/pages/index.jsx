@@ -1,4 +1,6 @@
 import ColorChanger from "@/components/ColorChanger/ColorChanger";
+import ContactMeDiv from "@/components/ContactMeDiv/ContactMeDiv";
+import ImageDiv from "@/components/ImageDiv/ImageDiv";
 import TitleDiv from "@/components/TitleDiv/TitleDiv";
 
 export default function HomePage() {
@@ -12,7 +14,7 @@ export default function HomePage() {
                       <ImageDiv />
                       <ContactMeDiv />
                   </div>
-                  <SocialsDiv />
+                  {/* <SocialsDiv />
                   <ResumeDiv />
               </article>
               <article className="about-myskills-certificates-data">
@@ -22,7 +24,7 @@ export default function HomePage() {
                   </div>
                   <div className="down-side">
                       <DatasDiv />
-                  </div>
+                  </div> */}
               </article>
           </section>
       </section>
