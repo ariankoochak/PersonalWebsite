@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import CertificatesMainDatas from "../CertificatesMainDatas/CertificatesMainDatas";
-import AwardsMainDatas from "../AwardsMainDatas/AwardsMainDatas";
-import ProjectsMainDatas from "../ProjectsMainDatas/ProjectsMainDatas";
-import ExperienceMainDatas from "../ExperienceMainDatas/ExperienceMainDatas";
+import CertificatesMainDatas from "../../resumeDatas/CertificatesMainDatas/CertificatesMainDatas";
+import AwardsMainDatas from "../../resumeDatas/AwardsMainDatas/AwardsMainDatas";
+import ProjectsMainDatas from "../../resumeDatas/ProjectsMainDatas/ProjectsMainDatas";
+import ExperienceMainDatas from "../../resumeDatas/ExperienceMainDatas/ExperienceMainDatas";
 
 export default function DatasDiv() {
     const handleClickTab = (e) => {

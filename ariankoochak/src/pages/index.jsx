@@ -1,12 +1,12 @@
-import AboutDiv from "@/components/AboutDiv/AboutDiv";
-import ColorChanger from "@/components/ColorChanger/ColorChanger";
-import ContactMeDiv from "@/components/ContactMeDiv/ContactMeDiv";
-import DatasDiv from "@/components/DatasDiv/DatasDiv";
-import ImageDiv from "@/components/ImageDiv/ImageDiv";
-import MySkillsDiv from "@/components/MySkillsDiv/MySkillsDiv";
-import ResumeDiv from "@/components/ResumeDiv/ResumeDiv";
-import SocialsDiv from "@/components/SocialsDiv/SocialsDiv";
-import TitleDiv from "@/components/TitleDiv/TitleDiv";
+import AboutDiv from "@/layouts/AboutDiv/AboutDiv";
+import ColorChanger from "@/layouts/ColorChanger/ColorChanger";
+import ContactMeDiv from "@/layouts/ContactMeDiv/ContactMeDiv";
+import DatasDiv from "@/layouts/DatasDiv/DatasDiv";
+import ImageDiv from "@/layouts/ImageDiv/ImageDiv";
+import MySkillsDiv from "@/layouts/MySkillsDiv/MySkillsDiv";
+import ResumeDiv from "@/layouts/ResumeDiv/ResumeDiv";
+import SocialsDiv from "@/layouts/SocialsDiv/SocialsDiv";
+import TitleDiv from "@/layouts/TitleDiv/TitleDiv";
 
 export default function HomePage() {
   return (

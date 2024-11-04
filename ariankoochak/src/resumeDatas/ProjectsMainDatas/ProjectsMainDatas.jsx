@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const myLogoSrc = "/Images/MyLogo.webp";
 const momentMachineLogoSrc = "/Images/momentMachine.webp";

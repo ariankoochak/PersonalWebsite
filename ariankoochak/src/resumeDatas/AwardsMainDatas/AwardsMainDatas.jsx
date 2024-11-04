@@ -1,5 +1,5 @@
 import React from 'react'
-import AwardCard from '../AwardCard/AwardCard'
+import AwardCard from '../../components/AwardCard/AwardCard'
 const iranOpenLogoSrc = '/Images/IranOpenLogo.webp'
 const rcapLogoSrc = "/Images/RcapLogo.webp";
 const robocup2016LogoSrc = "/Images/RoboCup2016Logo.webp";

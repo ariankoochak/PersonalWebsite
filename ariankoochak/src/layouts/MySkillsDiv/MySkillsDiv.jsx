@@ -1,5 +1,5 @@
 import React from "react";
-import SkillTag from "../SkillTag/SkillTag";
+import SkillTag from "../../components/SkillTag/SkillTag";
 
 
 const jsLogoSrc = "/Images/JsLogo.webp";
