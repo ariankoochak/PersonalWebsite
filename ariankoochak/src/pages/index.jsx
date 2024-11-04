@@ -1,11 +1,12 @@
 import ColorChanger from "@/components/ColorChanger/ColorChanger";
+import TitleDiv from "@/components/TitleDiv/TitleDiv";
 
 export default function HomePage() {
   return (
       <section className="main">
           <section className="container">
               <ColorChanger />
-              {/* <article className="contact-and-me-data">
+              <article className="contact-and-me-data">
                   <TitleDiv />
                   <div className="image-and-contact-container">
                       <ImageDiv />
@@ -22,7 +23,7 @@ export default function HomePage() {
                   <div className="down-side">
                       <DatasDiv />
                   </div>
-              </article> */}
+              </article>
           </section>
       </section>
   );
