@@ -1,6 +1,7 @@
 import AboutDiv from "@/components/AboutDiv/AboutDiv";
 import ColorChanger from "@/components/ColorChanger/ColorChanger";
 import ContactMeDiv from "@/components/ContactMeDiv/ContactMeDiv";
+import DatasDiv from "@/components/DatasDiv/DatasDiv";
 import ImageDiv from "@/components/ImageDiv/ImageDiv";
 import MySkillsDiv from "@/components/MySkillsDiv/MySkillsDiv";
 import ResumeDiv from "@/components/ResumeDiv/ResumeDiv";
@@ -26,9 +27,9 @@ export default function HomePage() {
                       <MySkillsDiv />
                       <AboutDiv />
                   </div>
-                  {/* <div className="down-side">
+                  <div className="down-side">
                       <DatasDiv />
-                  </div> */}
+                  </div>
               </article>
           </section>
       </section>
