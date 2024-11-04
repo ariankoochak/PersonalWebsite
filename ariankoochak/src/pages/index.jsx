@@ -1,3 +1,4 @@
+import AboutDiv from "@/components/AboutDiv/AboutDiv";
 import ColorChanger from "@/components/ColorChanger/ColorChanger";
 import ContactMeDiv from "@/components/ContactMeDiv/ContactMeDiv";
 import ImageDiv from "@/components/ImageDiv/ImageDiv";
