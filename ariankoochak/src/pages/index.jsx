@@ -1,6 +1,7 @@
 import ColorChanger from "@/components/ColorChanger/ColorChanger";
 import ContactMeDiv from "@/components/ContactMeDiv/ContactMeDiv";
 import ImageDiv from "@/components/ImageDiv/ImageDiv";
+import MySkillsDiv from "@/components/MySkillsDiv/MySkillsDiv";
 import ResumeDiv from "@/components/ResumeDiv/ResumeDiv";
 import SocialsDiv from "@/components/SocialsDiv/SocialsDiv";
 import TitleDiv from "@/components/TitleDiv/TitleDiv";
@@ -19,15 +20,15 @@ export default function HomePage() {
                   <SocialsDiv />
                   <ResumeDiv />
               </article>
-              {/* <article className="about-myskills-certificates-data">
+              <article className="about-myskills-certificates-data">
                   <div className="up-side">
                       <MySkillsDiv />
                       <AboutDiv />
                   </div>
-                  <div className="down-side">
+                  {/* <div className="down-side">
                       <DatasDiv />
-                  </div>
-              </article> */}
+                  </div> */}
+              </article>
           </section>
       </section>
   );
