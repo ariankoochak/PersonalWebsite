@@ -13,7 +13,7 @@ export default function ContactMeDiv() {
                 >
                     <i className="fa-solid fa-circle"></i> Contact me
                 </button>
-                <a href="./CV.pdf" download>
+                <a href="/CV.pdf" download>
                     <button
                         className={`download-cv-btn persian-blue-Backgroundcolor`}
                     >
