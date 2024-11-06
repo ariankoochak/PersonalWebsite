@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function CertificateCard({
@@ -10,11 +11,7 @@ export default function CertificateCard({
     return (
         <div className="certificate-card">
             <div className="institute-image">
-                <img
-                    loading="lazy"
-                    src={instituteIconSrc}
-                    alt={`${institute}`}
-                />
+                <Image src={instituteIconSrc} alt={`${institute}`} fill />
             </div>
             <div className="certificate-datas">
                 <div className="left-side">
