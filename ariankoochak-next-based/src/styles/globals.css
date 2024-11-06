@@ -412,6 +412,7 @@ a {
     border-radius: 10px;
     overflow: hidden;
     display: inline-block;
+    position: relative;
 }
 
 .certificate-datas {
