@@ -255,8 +255,16 @@ a {
     cursor: pointer;
 }
 
-.socials-div .quera img {
+/* .socials-div .quera img {
     width: 45px;
+    position: relative;
+    top: 6px;
+} */
+
+.socials-div .quera .quera-logo-container{
+    width: 45px;
+    height: 5px;
+    overflow: hidden;
     position: relative;
     top: 6px;
 }
@@ -476,8 +484,9 @@ a {
     .socials-div div i{
         font-size: 55px;
     }
-    .socials-div .quera img{
+    .socials-div .quera .quera-logo-container{
         width: 55px;
+        height: 13px;
     }
     .about-myskills-certificates-data {
         width: 100%;

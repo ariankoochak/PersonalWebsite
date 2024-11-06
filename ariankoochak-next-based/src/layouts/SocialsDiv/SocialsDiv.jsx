@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+
+const queraLogoSrc = "/Images/QueraLogo.webp";
 export default function SocialsDiv() {
     return (
         <div className={`common-styles-div socials-div persian-blue-div-color`}>
@@ -37,7 +40,9 @@ export default function SocialsDiv() {
                 rel="noreferrer"
             >
                 <div className="quera">
-                    <img loading="lazy" src={'/Images/QueraLogo.webp'} alt="quera" />
+                    <div className="quera-logo-container">
+                        <Image src={queraLogoSrc} alt="quera" fill />
+                    </div>
                 </div>
             </a>
         </div>
