@@ -1,4 +1,4 @@
-import React from "react";
+
 import SkillTag from "../../components/SkillTag/SkillTag";
 
 

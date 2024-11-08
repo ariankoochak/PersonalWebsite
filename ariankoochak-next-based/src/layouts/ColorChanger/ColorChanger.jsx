@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function ColorChanger() {
     const colors = ["blue", "red", "green", "orange"];

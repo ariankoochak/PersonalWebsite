@@ -1,4 +1,4 @@
-import React from "react";
+
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const myLogoSrc = "/Images/MyLogo.webp";

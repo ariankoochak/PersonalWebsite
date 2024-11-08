@@ -1,4 +1,4 @@
-import React from "react";
+
 import styled from "styled-components";
 export default function SkillTag(props) {
     const SkillTagSpan = styled.span`

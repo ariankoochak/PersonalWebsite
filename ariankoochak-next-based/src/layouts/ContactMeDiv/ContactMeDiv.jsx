@@ -1,4 +1,4 @@
-import React from "react";
+
 export default function ContactMeDiv() {
     const handleContactMeClick = () => {
         window.open("mailto:arian.koochak@protonmail.com");
