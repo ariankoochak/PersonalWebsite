@@ -12,8 +12,9 @@ import awardsData from "../../data/awards.data";
 import certificatesData from "../../data/certificates.data";
 import experiencesData from "../../data/experiences.data";
 import projectsData from "../../data/projects.data";
+import personalInfoData from "../../data/personalInfo.data";
 
-export default function HomePage({ awardData, certificateData, experienceData, projectData }) {
+export default function HomePage({ awardData, certificateData, experienceData, projectData ,personalInfo}) {
     return (
         <section className="main">
             <section className="container">
@@ -25,12 +26,12 @@ export default function HomePage({ awardData, certificateData, experienceData, p
                         <ContactMeDiv />
                     </div>
                     <SocialsDiv />
-                    <ResumeDiv />
+                    <ResumeDiv data={personalInfo.info}/>
                 </article>
                 <article className="about-myskills-certificates-data">
                     <div className="up-side">
                         <MySkillsDiv />
-                        <AboutDiv />
+                        <AboutDiv data={personalInfo.aboutMe}/>
                     </div>
                     <div className="down-side">
                         <DatasDiv
@@ -53,6 +54,7 @@ export async function getServerSideProps() {
             certificateData: certificatesData,
             experienceData: experiencesData,
             projectData: projectsData,
+            personalInfo : personalInfoData
         },
     };
 }
