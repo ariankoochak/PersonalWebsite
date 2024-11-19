@@ -11,7 +11,7 @@ export default function MySkillsDiv({data}) {
         >
             <h2 className={`divs-title persian-blue-color`}>My Skills</h2>
             <div className="skills">
-                {data.map((skill)=><SkillTag skillName={skill.skillName} skillIconSrc={skill.skillIconSrc}/>)}
+                {data.map((skill)=><SkillTag key={skill.skillName} skillName={skill.skillName} skillIconSrc={skill.skillIconSrc}/>)}
             </div>
         </div>
     );
