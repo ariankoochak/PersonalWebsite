@@ -4,7 +4,7 @@ import AwardsMainDatas from "../../resumeDatas/AwardsMainDatas/AwardsMainDatas";
 import ProjectsMainDatas from "../../resumeDatas/ProjectsMainDatas/ProjectsMainDatas";
 import ExperienceMainDatas from "../../resumeDatas/ExperienceMainDatas/ExperienceMainDatas";
 
-export default function DatasDiv({awardData,certificateData}) {
+export default function DatasDiv({ awardData, certificateData, experienceData }) {
     const handleClickTab = (e) => {
         SetActiveTab(e.target.innerText);
     };
@@ -50,11 +50,11 @@ export default function DatasDiv({awardData,certificateData}) {
             case "Certificates ":
                 return <CertificatesMainDatas data={certificateData} />;
             case "Awards ":
-                return <AwardsMainDatas data={awardData}/>;
+                return <AwardsMainDatas data={awardData} />;
             case "Projects ":
                 return <ProjectsMainDatas />;
             case "Experiences ":
-                return <ExperienceMainDatas />;
+                return <ExperienceMainDatas data={experienceData} />;
             default:
                 SetActiveTab("Certificates ");
         }
