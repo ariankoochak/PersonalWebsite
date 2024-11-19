@@ -15,38 +15,45 @@ const robocup2017LogoSrc = "/Images/RoboCup2017Logo.webp";
 const salamLogoSrc = "/Images/SalamLogo.webp";
 const sampadLogoSrc = "/Images/SampadLogo.webp";
 
-export default function HomePage({awardData}) {
+const mtfLogoSrc = "/Images/MftLogo.webp";
+const sharifLogoSrc = "/Images/SharifLogo.webp";
+const rahsaLogoSrc = "/Images/RahsaLogo.webp";
+const queraLogoSrc = "/Images/queraLogoForCertificate.webp";
+
+export default function HomePage({ awardData, certificateData }) {
     console.log(awardData);
-  return (
-      <section className="main">
-          <section className="container">
-              <ColorChanger />
-              <article className="contact-and-me-data">
-                  <TitleDiv />
-                  <div className="image-and-contact-container">
-                      <ImageDiv />
-                      <ContactMeDiv />
-                  </div>
-                  <SocialsDiv />
-                  <ResumeDiv />
-              </article>
-              <article className="about-myskills-certificates-data">
-                  <div className="up-side">
-                      <MySkillsDiv />
-                      <AboutDiv />
-                  </div>
-                  <div className="down-side">
+    return (
+        <section className="main">
+            <section className="container">
+                <ColorChanger />
+                <article className="contact-and-me-data">
+                    <TitleDiv />
+                    <div className="image-and-contact-container">
+                        <ImageDiv />
+                        <ContactMeDiv />
+                    </div>
+                    <SocialsDiv />
+                    <ResumeDiv />
+                </article>
+                <article className="about-myskills-certificates-data">
+                    <div className="up-side">
+                        <MySkillsDiv />
+                        <AboutDiv />
+                    </div>
+                    <div className="down-side">
                         {console.log(awardData)}
-                      <DatasDiv awardData ={awardData}/>
-                  </div>
-              </article>
-          </section>
-      </section>
-  );
+                        <DatasDiv
+                            awardData={awardData}
+                            certificateData={certificateData}
+                        />
+                    </div>
+                </article>
+            </section>
+        </section>
+    );
 }
 
 export async function getServerSideProps() {
-    console.log("hello");
     return {
         props: {
             awardData: [
@@ -91,6 +98,71 @@ export async function getServerSideProps() {
                     issued: "Salam school complex",
                     issuedIconSrc: salamLogoSrc,
                     year: "2016",
+                },
+            ],
+            certificateData: [
+                {
+                    title: "No-SQL Databases",
+                    institute: "Quera",
+                    instituteIconSrc: queraLogoSrc,
+                    techs: "Redis/MongoDb/Neo4j/Cassandra/ElasticSearch",
+                    year: "2024",
+                },
+                {
+                    title: "Node JS",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "Node/mongoDB/Redis",
+                    year: "2024",
+                },
+                {
+                    title: "React JS",
+                    institute: "Sharif University of Technology",
+                    instituteIconSrc: sharifLogoSrc,
+                    techs: "React/Redux",
+                    year: "2023",
+                },
+                {
+                    title: "React JS",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "React/NextJS/Redux",
+                    year: "2023",
+                },
+                {
+                    title: "JavaScript & Ajax & jQuery",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "JavaScript/Ajax/jQuery",
+                    year: "2023",
+                },
+                {
+                    title: "HTML & CSS",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "HTML/CSS",
+                    year: "2023",
+                },
+                {
+                    title: "SQL Server",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "Database/T-Sql/Sql server",
+                    year: "2023",
+                },
+                {
+                    title: "Python",
+                    institute: "Tehran Institute of Technology",
+                    instituteIconSrc: mtfLogoSrc,
+                    techs: "Python",
+                    year: "2023",
+                },
+                {
+                    title: "Introduction to machine learning",
+                    institute: "Rahsa Educational Industrial Group",
+                    instituteIconSrc: rahsaLogoSrc,
+                    techs: "Python/AI",
+                    year: "2023",
                 },
             ],
         },
