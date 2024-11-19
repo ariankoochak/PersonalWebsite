@@ -294,6 +294,7 @@ a {
 
 .resume-div .resume-data span {
     font-family: "Roboto", sans-serif;
+    cursor: default;
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
