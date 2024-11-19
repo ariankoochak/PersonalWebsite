@@ -24,7 +24,11 @@ const lewmarkLogoSrc = "/Images/LewmarkLogo.webp";
 const ZistabLogoSrc = "/Images/ZistabLogo.webp";
 const mosabpooyaLogoSrc = "/Images/MosabpooyaLogo.webp";
 
-export default function HomePage({ awardData, certificateData, experienceData }) {
+const myLogoSrc = "/Images/MyLogo.webp";
+const momentMachineLogoSrc = "/Images/momentMachine.webp";
+const valiendLogoSrc = "/Images/valiend.webp";
+
+export default function HomePage({ awardData, certificateData, experienceData, projectData }) {
     return (
         <section className="main">
             <section className="container">
@@ -44,11 +48,11 @@ export default function HomePage({ awardData, certificateData, experienceData })
                         <AboutDiv />
                     </div>
                     <div className="down-side">
-                        {console.log(awardData)}
                         <DatasDiv
                             awardData={awardData}
                             certificateData={certificateData}
                             experienceData={experienceData}
+                            projectData={projectData}
                         />
                     </div>
                 </article>
@@ -190,6 +194,114 @@ export async function getServerSideProps() {
                     issuedIconSrc: lewmarkLogoSrc,
                     date: "july 2020 - september 2020",
                     city: "England-manchester",
+                },
+            ],
+            projectData: [
+                {
+                    title: "valiend",
+                    techs: "npm package",
+                    live: "https://valiend.com",
+                    iconSrc: valiendLogoSrc,
+                    mainLink: "https://github.com/ariankoochak/valiend",
+                },
+                {
+                    title: "moment-machine",
+                    techs: "npm package",
+                    live: "https://moment-machine.com",
+                    iconSrc: momentMachineLogoSrc,
+                    mainLink: "https://github.com/ariankoochak/moment-machine",
+                },
+                {
+                    title: "Personal Website(This Website)",
+                    techs: "ReactJs/NodeJS/Redux",
+                    live: "https://ariankoochak.com",
+                    iconSrc: myLogoSrc,
+                    mainLink: "https://github.com/ariankoochak/PersonalWebsite",
+                },
+                {
+                    title: "sortex package",
+                    techs: "npm package",
+                    live: "https://www.npmjs.com/package/sortex",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/sortex",
+                },
+                {
+                    title: "Todo List",
+                    techs: "ReactJs/Redux",
+                    live: "https://ariankoochak.github.io/todoMVC/",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/todoMVC",
+                },
+                {
+                    title: "Ping Pong JS",
+                    techs: "JavaScript",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/pingPongJs",
+                },
+                {
+                    title: "CV-Project",
+                    techs: "ReactJs/Redux",
+                    live: "https://ariankoochak.github.io/CV-Project/",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/CV-Project",
+                },
+                {
+                    title: "Clock factory ticket-service",
+                    techs: "ReactJs/Redux/ExpressJs/MongoDB",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/ClockService",
+                },
+                {
+                    title: "Dijkstra",
+                    techs: "C++",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/Dijkstra",
+                },
+                {
+                    title: "product list task",
+                    techs: "ReactJs/Redux",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink:
+                        "https://github.com/ariankoochak/productsListTask",
+                },
+                {
+                    title: "A-Star",
+                    techs: "C++",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/A-star",
+                },
+                {
+                    title: "JS-Lab",
+                    techs: "Javascript/MySql",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/js-Lab",
+                },
+                {
+                    title: "ReactJS-Lab",
+                    techs: "ReactJS/NextJS/redux",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/reactjs-Lab",
+                },
+                {
+                    title: "nodejs-Lab",
+                    techs: "nodejs/mongoDB",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/nodejs-Lab",
+                },
+                {
+                    title: "Sql-Lab",
+                    techs: "ReactJS/NextJS/redux",
+                    live: "",
+                    iconSrc: "github",
+                    mainLink: "https://github.com/ariankoochak/sql-Lab",
                 },
             ],
         },
