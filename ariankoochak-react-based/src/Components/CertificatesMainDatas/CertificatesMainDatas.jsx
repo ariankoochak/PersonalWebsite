@@ -4,6 +4,8 @@ import mtfLogoSrc from '../../Assets/Images/MftLogo.webp'
 import sharifLogoSrc from "../../Assets/Images/SharifLogo.webp";
 import rahsaLogoSrc from "../../Assets/Images/RahsaLogo.webp";
 import queraLogoSrc from '../../Assets/Images/queraLogoForCertificate.webp'
+import maktabkhoonehLogoSrc from "../../Assets/Images/maktabkhoonehLogo.webp";
+
 
 
 export default function CertificatesMainDatas() {
@@ -21,7 +23,15 @@ export default function CertificatesMainDatas() {
               title="Node JS"
               institute="Tehran Institute of Technology"
               instituteIconSrc={mtfLogoSrc}
-              techs="Node/mongoDB/Redis"
+              techs="Node/mongoDB/Redis/Express"
+              year="2024"
+          />
+          <div className="line"></div>
+          <CertificateCard
+              title="Node JS"
+              institute="Maktabkhooneh"
+              instituteIconSrc={maktabkhoonehLogoSrc}
+              techs="Node/Express/MongoDB"
               year="2024"
           />
           <div className="line"></div>
